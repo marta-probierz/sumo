@@ -92,3 +92,135 @@
     }
   }
 }
+
+.third-section {
+  h1 {
+    font-size: 90px;
+    font-weight: 900;
+
+    @media (max-width: 768px) {
+      font-size: 40px;
+    }
+  }
+
+  h3 {
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 20px;
+
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
+  }
+
+  p {
+    max-width: 470px;
+    margin-bottom: 60px;
+  }
+
+  .logo-grid {
+    img {
+      border: 10px solid #fff;
+      box-shadow: 8px 8px 24px 0px rgba(128, 128, 128, 0.5);
+    }
+
+    @media (min-width: 993px) {
+      position: relative;
+      margin-top: 370px;
+
+      .sourpuss {
+        position: absolute;
+        width: 320px;
+        right: 660px;
+        bottom: 370px;
+        z-index: 1;
+      }
+
+      .treehouse {
+        position: absolute;
+        width: 340px;
+        right: 950px;
+        bottom: 520px;
+        z-index: 2;
+      }
+
+      .booze {
+        position: absolute;
+        width: 300px;
+        right: 520px;
+        bottom: 200px;
+        z-index: 3;
+      }
+
+      .pitney {
+        position: absolute;
+        right: 360px;
+        bottom: 350px;
+        z-index: 4;
+      }
+
+      .overtone {
+        position: absolute;
+        width: 300px;
+        right: 950px;
+        bottom: 220px;
+        z-index: 4;
+      }
+
+      .roku {
+        position: absolute;
+        width: 300px;
+        right: 150px;
+        bottom: 170px;
+        z-index: 3;
+      }
+
+      .tyr {
+        position: absolute;
+        right: 0;
+        bottom: 20px;
+        z-index: 2;
+      }
+
+      .crafters-box {
+        position: absolute;
+        width: 350px;
+        right: 350px;
+        bottom: 15px;
+        z-index: 2;
+      }
+    }
+
+    @media (max-width: 992px) {
+      img {
+        width: 150px;
+        height: 100px;
+        margin: 10px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      img {
+        width: 220px;
+        height: 120px;
+      }
+    }
+  }
+}
+
+.home-button {
+  padding: 7px 25px;
+  font-weight: 700;
+  color: #ce1125;
+  text-transform: uppercase;
+  border: 3px solid #ce1125;
+  border-bottom-left-radius: 20% 100%;
+  border-bottom-right-radius: 20% 100%;
+  border-top-left-radius: 20% 100%;
+  border-top-right-radius: 20% 100%;
+
+  &:hover {
+    border: 3px solid #000;
+    color: #000;
+  }
+}
