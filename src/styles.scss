@@ -1,7 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
 
 /* Importing Bootstrap SCSS file. */
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
+@import "primeicons/primeicons.css";
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+
+  .to-top {
+    @keyframes uparrow {
+      0% {
+        -webkit-transform: translateY(0);
+        opacity: 0.4;
+      }
+      100% {
+        -webkit-transform: translateY(-0.4em);
+        opacity: 0.9;
+      }
+    }
+
+    i {
+      animation: uparrow 0.6s infinite alternate ease-in-out;
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+      color: #ce1125;
+      margin-top: 2rem;
+    }
+  }
+}
