@@ -15,6 +15,7 @@ import { TermsComponent } from './terms/terms.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { HomeComponent } from './home/home.component';
 import { IntroHeaderComponent } from './home/intro-header/intro-header.component';
+import { ToTopArrowComponent } from './shared/to-top-arrow/to-top-arrow.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { IntroHeaderComponent } from './home/intro-header/intro-header.component
     PrivacyPolicyComponent,
     HomeComponent,
     IntroHeaderComponent,
+    ToTopArrowComponent,
   ],
   imports: [
     BrowserModule,
