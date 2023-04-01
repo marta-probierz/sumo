@@ -3,6 +3,8 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { MessageService } from 'primeng/api';
 
+import { HomeCardsService } from '../services/home-cards.service';
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -11,13 +13,19 @@ import { MessageService } from 'primeng/api';
 })
 export class HomeComponent implements OnInit {
   contactForm: FormGroup;
+  homeCardsData;
 
   constructor(
     public messageService: MessageService,
-    private httpClient: HttpClient
+    private httpClient: HttpClient,
+    private homeCardsService: HomeCardsService
   ) {}
 
   ngOnInit(): void {
+    this.homeCardsService.getHomeCards().subscribe((res) => {
+      this.homeCardsData = res;
+    });
+
     this.contactForm = new FormGroup({
       firstName: new FormControl(null, [Validators.required]),
       lastName: new FormControl(null),

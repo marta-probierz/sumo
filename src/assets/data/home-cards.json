@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "../../assets/home/shopify.jpeg",
+    "alt": "Shopify",
+    "date": "03-01-2023",
+    "name": "The Real-World Journey of Moving to Shopify Online Store 2.0",
+    "link": "/"
+  },
+  {
+    "id": 2,
+    "image": "../../assets/home/grocery.jpeg",
+    "alt": "Grocery",
+    "date": "03-01-2023",
+    "name": "Grocery eCommerce Habits are Shifting for Consumers",
+    "link": "/"
+  },
+  {
+    "id": 3,
+    "image": "../../assets/home/data-warehousing.jpeg",
+    "alt": "Data Warehousing",
+    "date": "03-01-2023",
+    "name": "How Data Warehouses Can Save Your Company Money",
+    "link": "/"
+  }
+]

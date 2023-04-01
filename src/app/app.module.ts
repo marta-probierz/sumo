@@ -17,6 +17,7 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 import { HomeComponent } from './home/home.component';
 import { IntroHeaderComponent } from './home/intro-header/intro-header.component';
 import { ToTopArrowComponent } from './shared/to-top-arrow/to-top-arrow.component';
+import { HomeCardsService } from './services/home-cards.service';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,7 @@ import { ToTopArrowComponent } from './shared/to-top-arrow/to-top-arrow.componen
     ToastModule,
     HttpClientModule,
   ],
-  providers: [],
+  providers: [HomeCardsService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
