@@ -184,44 +184,16 @@
       our love for eCommerce.
     </p>
     <div class="row mt-4 content-grid">
-      <div class="col-12 col-lg-4">
-        <div class="card" routerLink="/">
+      <div *ngFor="let cardData of homeCardsData" class="col-12 col-lg-4">
+        <div class="card" [routerLink]="cardData.link">
           <img
             class="card-img-top"
-            src="../../assets/home/shopify.jpeg"
-            alt="Shopify"
+            [src]="cardData.image"
+            [alt]="cardData.alt"
           />
           <div class="card-body">
-            <p>March 2023</p>
-            <a>The Real-World Journey of Moving to Shopify Online Store 2.0</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-lg-4">
-        <div class="card" routerLink="/">
-          <img
-            class="card-img-top"
-            src="../../assets/home/grocery.jpeg"
-            alt="Grocery"
-          />
-          <div class="card-body">
-            <p>March 2023</p>
-            <a>Grocery eCommerce Habits are Shifting for Consumers</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-lg-4">
-        <div class="card" routerLink="/">
-          <img
-            class="card-img-top"
-            src="../../assets/home/data-warehousing.jpeg"
-            alt="Data Warehousing"
-          />
-          <div class="card-body">
-            <p>March 2023</p>
-            <a>How Data Warehouses Can Save Your Company Money</a>
+            <p>{{ cardData.date | date : "MMM y" }}</p>
+            <a>{{ cardData.name }}</a>
           </div>
         </div>
       </div>
