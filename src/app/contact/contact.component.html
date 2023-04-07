@@ -65,3 +65,106 @@
     </div>
   </div>
 </div>
+<div class="container mt-5">
+  <h2 class="text-center">Do You Have a Project in Mind?</h2>
+  <h5 class="text-center mt-3">
+    Our greatest strength is our ability to forge long-term relationships to
+    contribute to our client's long-term success.
+  </h5>
+  <h5 class="text-center">
+    Simply fill our the form below and we'll be in touch!
+  </h5>
+  <div class="container mt-4">
+    <div class="row justify-content-center">
+      <div class="col-8">
+        <form
+          [formGroup]="contactForm"
+          (ngSubmit)="onSubmit(contactForm.value)"
+        >
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <mat-form-field class="w-100">
+                <mat-label>Name</mat-label>
+                <input matInput name="name" formControlName="name" />
+                <mat-error
+                  *ngIf="contactForm.controls['name'].errors?.['required'] && contactForm.controls['name'].touched || contactForm.controls['name'].errors?.['required'] && contactForm.controls['name'].dirty"
+                  >Name is required</mat-error
+                >
+              </mat-form-field>
+            </div>
+            <div class="col-12 col-md-6">
+              <mat-form-field class="w-100">
+                <mat-label>Company</mat-label>
+                <input
+                  matInput
+                  name="companyName"
+                  formControlName="companyName"
+                />
+                <mat-error
+                  *ngIf="contactForm.controls['companyName'].errors?.['required'] && contactForm.controls['companyName'].touched || contactForm.controls['companyName'].errors?.['required'] && contactForm.controls['companyName'].dirty"
+                  >Company is required</mat-error
+                >
+              </mat-form-field>
+            </div>
+            <div class="col-12 col-md-6">
+              <mat-form-field class="w-100">
+                <mat-label>Email</mat-label>
+                <input matInput name="email" formControlName="email" />
+                <mat-error
+                  *ngIf="contactForm.controls['email'].errors?.['required'] && contactForm.controls['email'].touched || contactForm.controls['email'].errors?.['required'] && contactForm.controls['email'].dirty"
+                  >Email is required</mat-error
+                >
+                <mat-error
+                  *ngIf="contactForm.controls['email'].errors?.['email'] && contactForm.controls['email'].touched || contactForm.controls['email'].errors?.['email'] && contactForm.controls['email'].dirty"
+                  >Please enter valid email</mat-error
+                >
+              </mat-form-field>
+            </div>
+            <div class="col-12 col-md-6">
+              <mat-form-field class="w-100">
+                <mat-label>Phone Number</mat-label>
+                <input
+                  matInput
+                  name="phoneNumber"
+                  formControlName="phoneNumber"
+                />
+                <mat-error
+                  *ngIf="contactForm.controls['phoneNumber'].errors?.['required'] && contactForm.controls['phoneNumber'].touched || contactForm.controls['phoneNumber'].errors?.['required'] && contactForm.controls['phoneNumber'].dirty"
+                  >Phone Number is required</mat-error
+                >
+                <mat-error
+                  *ngIf="contactForm.controls['phoneNumber'].errors?.['pattern'] && contactForm.controls['phoneNumber'].touched || contactForm.controls['phoneNumber'].errors?.['pattern'] && contactForm.controls['phoneNumber'].dirty"
+                  >Enter only numbers</mat-error
+                >
+              </mat-form-field>
+            </div>
+            <div class="col-12">
+              <mat-form-field class="w-100">
+                <mat-label>How Can We Help?</mat-label>
+                <textarea
+                  matInput
+                  name="help"
+                  formControlName="help"
+                ></textarea>
+                <mat-error
+                  *ngIf="contactForm.controls['help'].errors?.['required'] && contactForm.controls['help'].touched || contactForm.controls['help'].errors?.['required'] && contactForm.controls['help'].dirty"
+                  >This field is required</mat-error
+                >
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="text-center">
+            <button
+              type="submit"
+              [disabled]="!contactForm.valid"
+              class="home-button"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<p-toast></p-toast>
