@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Sourpuss Clothing",
+    "img": "../../assets/our-work/sourpuss.jpeg",
+    "alt": "Sourpuss",
+    "link": "/"
+  },
+  {
+    "id": 2,
+    "title": "Treehouse Brand Stores",
+    "img": "../../assets/our-work/treehouse.jpeg",
+    "alt": "Treehouse",
+    "link": "/"
+  },
+  {
+    "id": 3,
+    "title": "Booze Carriage",
+    "img": "../../assets/our-work/booze-carriage.jpeg",
+    "alt": "Booze Carriage",
+    "link": "/"
+  },
+  {
+    "id": 4,
+    "title": "Stadium Goods",
+    "img": "../../assets/our-work/stadium-goods.jpeg",
+    "alt": "Stadium Goods",
+    "link": "/"
+  },
+  {
+    "id": 5,
+    "title": "Pet360",
+    "img": "../../assets/our-work/pet-360.jpeg",
+    "alt": "Pet360",
+    "link": "/"
+  },
+  {
+    "id": 6,
+    "title": "Citibike",
+    "img": "../../assets/our-work/citibike.jpeg",
+    "alt": "Citibike",
+    "link": "/"
+  }
+]

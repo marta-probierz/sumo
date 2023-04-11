@@ -5,9 +5,11 @@ import { HomeComponent } from './home/home.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { TermsComponent } from './terms/terms.component';
 import { ContactComponent } from './contact/contact.component';
+import { OurWorkComponent } from './our-work/our-work.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  { path: 'our-work', component: OurWorkComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'terms', component: TermsComponent },
   { path: 'privacy-policy', component: PrivacyPolicyComponent },
