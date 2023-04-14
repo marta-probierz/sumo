@@ -9,7 +9,7 @@
       }
 
       @media (max-width: 768px) {
-        font-size: 35px;
+        font-size: 30px;
         text-align: center;
       }
     }
@@ -52,6 +52,58 @@
         @media (max-width: 768px) {
           font-size: 14px;
         }
+      }
+    }
+  }
+}
+
+.bg-light {
+  hr {
+    border-top: 2px solid;
+  }
+
+  h3 {
+    font-weight: 900;
+
+    .number {
+      color: #cd2028;
+    }
+  }
+
+  ::ng-deep.mat-form-field-type-mat-select:not(.mat-form-field-disabled)
+    .mat-form-field-flex {
+    background-color: #fff;
+    box-shadow: 8px 8px 24px 0px rgba(128, 128, 128, 0.5);
+  }
+
+  ::ng-deep.mat-form-field-infix {
+    width: 400px;
+  }
+
+  ::ng-deep.mat-select-arrow,
+  ::ng-deep.mat-select-arrow-wrapper {
+    color: #cd2028 !important;
+  }
+
+  ::ng-deep.mat-form-field-underline {
+    display: none;
+  }
+
+  ::ng-deep mat-form-field span.mat-form-field-label-wrapper label {
+    font-weight: 900;
+    color: #000;
+  }
+
+  .brands {
+    img {
+      width: 100%;
+      height: 190px;
+      border: 10px solid #fff;
+      box-shadow: 8px 8px 24px 0px rgba(128, 128, 128, 0.5);
+      background-color: #fff;
+
+      &:hover {
+        box-shadow: 8px 8px 24px 0px rgba(128, 128, 128, 0.9);
       }
     }
   }

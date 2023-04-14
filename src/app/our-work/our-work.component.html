@@ -15,3 +15,49 @@
     </div>
   </div>
 </div>
+<div class="bg-light">
+  <div class="container p-5">
+    <div class="row">
+      <div class="col-12 col-md-5">
+        <h1 class="h1-second">The whole Magilla.</h1>
+      </div>
+      <div class="col-12 col-md-7 d-flex align-items-center">
+        <p class="p-second">
+          SUMO Heavy is a believer in building relationships, not just client
+          lists. Take a look at some of the friends we’ve had the pleasure of
+          working with over the last 10 years.
+        </p>
+      </div>
+    </div>
+    <hr />
+    <div class="d-flex flex-column flex-md-row justify-content-md-between pt-3">
+      <h3>
+        Now showing
+        <span class="number">{{ ourWorkLogosData.length }}</span>
+        {{ ourWorkLogosData.length === 1 ? "client" : "clients" }}
+      </h3>
+      <mat-form-field appearance="fill">
+        <mat-label>Filter by Industry</mat-label>
+        <mat-select [formControl]="industry">
+          <mat-option (onSelectionChange)="onShowAll()"
+            >Show all clients</mat-option
+          >
+          <mat-divider></mat-divider>
+          <mat-option
+            (onSelectionChange)="optionSelected($event)"
+            *ngFor="let industry of industryList"
+            [value]="industry"
+            >{{ industry }}</mat-option
+          >
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="brands pt-3">
+      <div class="row g-3">
+        <div *ngFor="let logoData of ourWorkLogosData" class="col-12 col-md-3">
+          <img class="img-fluid" [src]="logoData.img" [alt]="logoData.alt" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
