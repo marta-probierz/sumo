@@ -7,6 +7,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ToastModule } from 'primeng/toast';
+import { MatSelectModule } from '@angular/material/select';
+import { MatDividerModule } from '@angular/material/divider';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,6 +22,7 @@ import { ToTopArrowComponent } from './shared/to-top-arrow/to-top-arrow.componen
 import { HomeCardsService } from './services/home-cards.service';
 import { ContactComponent } from './contact/contact.component';
 import { OurWorkComponent } from './our-work/our-work.component';
+import { FormComponent } from './shared/form/form.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +36,7 @@ import { OurWorkComponent } from './our-work/our-work.component';
     ToTopArrowComponent,
     ContactComponent,
     OurWorkComponent,
+    FormComponent,
   ],
   imports: [
     BrowserModule,
@@ -45,6 +49,8 @@ import { OurWorkComponent } from './our-work/our-work.component';
     MatInputModule,
     ToastModule,
     HttpClientModule,
+    MatSelectModule,
+    MatDividerModule,
   ],
   providers: [HomeCardsService],
   bootstrap: [AppComponent],

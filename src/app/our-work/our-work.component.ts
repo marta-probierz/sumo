@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
 
-import { OurWorkCardsService } from '../services/our-work-cards.service';
+import { OurWorkService } from '../services/our-work-cards.service';
 
 @Component({
   selector: 'app-our-work',
@@ -8,13 +9,44 @@ import { OurWorkCardsService } from '../services/our-work-cards.service';
   styleUrls: ['./our-work.component.scss'],
 })
 export class OurWorkComponent implements OnInit {
-  ourWorkCardsData;
+  ourWorkCardsData: any;
+  ourWorkLogosData: any;
+  industry = new FormControl('');
+  industryList: string[] = [
+    'Apparel',
+    'Computer',
+    'Construction',
+    'Consumer Goods',
+    'Entertainment',
+    'Food',
+    'Health & Beauty',
+    'Hospitality',
+    'Manufacturing',
+    'Mass Media',
+    'Service',
+    'Telecommunications',
+    'Transport',
+  ];
 
-  constructor(private ourWorkCardsService: OurWorkCardsService) {}
+  constructor(private ourWorkService: OurWorkService) {}
 
   ngOnInit(): void {
-    this.ourWorkCardsService.getOurWorkCards().subscribe((res) => {
+    this.ourWorkService.getOurWorkCards().subscribe((res) => {
       this.ourWorkCardsData = res;
     });
+
+    this.ourWorkLogosData = this.ourWorkService.ourWorkLogosData;
+  }
+
+  optionSelected(event) {
+    if (event.isUserInput) {
+      this.ourWorkLogosData = this.ourWorkService.ourWorkLogosData.filter(
+        (item) => item.industry === event.source.value
+      );
+    }
+  }
+
+  onShowAll() {
+    this.ourWorkLogosData = this.ourWorkService.ourWorkLogosData;
   }
 }
