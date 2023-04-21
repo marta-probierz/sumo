@@ -1,44 +1,303 @@
 [
   {
     "id": 1,
-    "title": "Sourpuss Clothing",
+    "name": "Sourpuss Clothing",
     "img": "../../assets/our-work/sourpuss.jpeg",
     "alt": "Sourpuss",
-    "link": "/"
+    "link": "sourpuss-clothing",
+    "title": "Modernizing Tech for Future Growth",
+    "paragraph": "Sourpuss Clothing is our longest-running client and has been with us since we migrated them from a custom ASP cart to Magento 1 CE. \nHowever, with Magento 1 hitting its end of life, we knew it was time for them to move to a new platform. We evaluated a few different options that met Sourpuss Clothing’s initial requirements, and together we chose to migrate their site to Shopify Plus.Along with undertaking a migration from Magento 1, Sourpuss Clothing had a few other goals. Maintaining their brand identity and feel on a new Theme, expanding payment methods available to their customers, and last but certainly not least, migrating from their deprecated ERP to a modern solution.",
+    "challenges": [
+      {
+        "id": 1,
+        "title": "Creating a Vendor Ordering System",
+        "paragraph": "With a long list of custom-built features on their Magento 1 site, we knew this was a project that would take careful planning to ensure success. Our Weigh In process, combined with our thorough knowledge of Sourpuss Clothing’s internal business processes gave us a great opportunity to review the site feature by feature. This allowed us to determine what was working, what legacy features could be removed, and to review all of their third-party software to discover areas for improvement."
+      },
+      {
+        "id": 2,
+        "title": "Multi-Channel with one Theme",
+        "paragraph": "One of the things that originally drew us to Sourpuss Clothing was the challenge of supporting a Retail and Wholesale division using the same eCommerce system. \nWith Shopify Plus, we knew that they’d want the experience to be similar, but with vital differences to give their Wholesale Customers a seamless experience. \nWe added the ability for Sourpuss to toggle between different Add to Cart experiences, different Marketing features, and UGC experiences."
+      },
+      {
+        "id": 3,
+        "title": "Alternative Payments",
+        "paragraph": "Sourpuss Clothing had heard their Customers loud and clear, they needed to add a buy now pay later or risk their Users shopping elsewhere. Having worked with Affirm before, we knew that they’d be a great fit due to their optimized Checkout flow, multiple payment options, and ease of integration with Shopify."
+      },
+      {
+        "id": 4,
+        "title": "Data Migration",
+        "paragraph": "When a store’s been operating as long as Sourpuss Clothing has, migrating eCommerce platforms involves a significant amount of data migration. We knew we needed to move tens of thousands of Products into Shopify Plus and their new ERP efficiently, but most important, accurately. Before development began, we thoroughly planned the migration of every data attribute to be certain we’d capture all of their historical data. We then wrote custom scripts that allowed us to migrate massive amounts of data from their Magento 1 instance without impact to their still-operating storefront."
+      }
+    ],
+    "summary": "By beginning with a thorough business analysis conducted during our Weigh In process, we were able to launch Sourpuss Clothing on Shopify Plus weeks before their Black Friday deadline. Since migrating to Shopify Plus, Sourpuss Clothing has seen increased Core Web Vitals scores, improved conversion rate, increased average order value, and most importantly strong positive growth year-over-year.",
+    "em": "We’re excited to embark on Sourpuss Clothing’s next chapter in the life of their eCommerce site, and we’re ready to see what the next ten years will hold!",
+    "what-we-did": [
+      {
+        "id": 1,
+        "img": "../../assets/icons/discovery.svg",
+        "alt": "Discovery",
+        "title": "Discovery"
+      },
+      {
+        "id": 2,
+        "img": "../../assets/icons/data-migration.svg",
+        "alt": "Data Migration",
+        "title": "Data Migration"
+      },
+      {
+        "id": 3,
+        "img": "../../assets/icons/growth-and-iteration.svg",
+        "alt": "Growth & Iteration",
+        "title": "Growth & Iteration"
+      }
+    ]
   },
   {
     "id": 2,
-    "title": "Treehouse Brand Stores",
+    "name": "Treehouse Brand Stores",
     "img": "../../assets/our-work/treehouse.jpeg",
     "alt": "Treehouse",
-    "link": "/"
+    "link": "treehouse-brand-stores",
+    "title": "Optimizing Multiple Magento Installs",
+    "paragraph": "Treehouse worked directly with game companies to engage their fans in creative ways. They flipped the conventional video game merchandise industry on its head by creating official gear that is nuanced, thoughtful, and of exceptional quality, featuring relationships with Electronic Arts, Bethesda, Microsoft, Take Two, and Activision. They also built and operated customized online stores where fans can get their fix in one place.",
+    "challenges": [
+      {
+        "id": 1,
+        "title": "Challenge - Initial Performance",
+        "paragraph": "Treehouse Brand Stores initially came to us with a simple problem -- every day, all properties would have significant downtime. It happened at the same time every day, and there was seemingly no reason for it. This is a perfect scenario for SUMO Heavy to onboard a new client. We quickly assisted them in acquiring the tools to understand the issue and realized that it was hidden in plain sight. \nAfter migrating to a new platform, the previous team had developed a solution that would perform a search when a 404 (Page Not Found) error would normally be served. The solution would break apart the URL search parameter into keywords. There was not a robust search solution implemented at the time, so this was a rigorous task for the system to handle. Based on the frequency and inbound traffic analysis, we understood that the reason this happened every day was due to search engines crawling the sites, and performing a massive number of searches. \nWe solved this issue by implementing redirects of the previous platform’s product pages and removing the solution that performed searches. This immediately stopped downtime due to inbound crawler traffic and opening the door to a revenue stream during those hours the site would normally be down."
+      },
+      {
+        "id": 2,
+        "title": "Challenge - SLA and Licensing",
+        "paragraph": "The previous team who migrated Treehouse Brand Stores to a new platform made two distinct decisions: \n• Having Treehouse purchase the enterprise edition of the platform \n• Setting up all properties on one install of the platform \nThe chosen platform, Magento, had a per-server licensing structure. To save on licensing costs, the previous development partner had created a single install with all properties in it. This created a dually-problematic scenario where: \n• If one property required high throughput, the solution could not scale \n• If one property received too much traffic and went down, all properties would go down \nOur approach is always business-first. Taking these facts into account, and the fact that Magento did not have cloud-based licensing at the time we came up with a solution that works to this day. \nWe developed a migration path and solution that would move all properties to separate, community edition installs. A single codebase was shared across all properties, so the biggest challenge was the migration. This happened in a short period of time, and by the next holiday season, we were running on multiple instances of the community edition of Magento. We worked with our client to ensure all PCI compliance measures were still met regarding the software and creating modules to handle the strict requirements of PCI Level 1. The solution is now running on the cloud and has met the needs of the business since. \nThis resolved issues with SLAs where one site going down would take others down, as well as reducing the TCO by removing licensing fees altogether."
+      },
+      {
+        "id": 3,
+        "title": "Challenge - Large Volume",
+        "paragraph": "When Bethesda Softworks released Fallout 4, it was an instant hit. Treehouse, who is well-known for producing collector’s editions for games, knew what to do. The plan was to work with Bethesda to create a limited, wearable Pip-Boy. \nThis product came with high demand, and we had to use the new scalable foundation to get through it. Working with teams internal to Treehouse, as well as the hosting partner, we were able to achieve load-tested throughput of 10 orders/second."
+      }
+    ],
+    "summary": "Migrating one large Magento Enterprise edition to multiple Community edition stores allowed Treehouse to resolve performance issues,helped lower costs, and allow each site to scale separately.",
+    "em": "Treehouse was acquired by ThinkGeek, and finally by GameStop.",
+    "what-we-did": [
+      {
+        "id": 1,
+        "img": "../../assets/icons/platform-migration.svg",
+        "alt": "Platform Migration",
+        "title": "Platform Migration"
+      },
+      {
+        "id": 2,
+        "img": "../../assets/icons/organizational-planning.svg",
+        "alt": "Organizational Planning",
+        "title": "Organizational Planning"
+      },
+      {
+        "id": 3,
+        "img": "../../assets/icons/data-migration.svg",
+        "alt": "Data Migration",
+        "title": "Data Migration"
+      }
+    ]
   },
   {
     "id": 3,
-    "title": "Booze Carriage",
+    "name": "Booze Carriage",
     "img": "../../assets/our-work/booze-carriage.jpeg",
     "alt": "Booze Carriage",
-    "link": "/"
+    "link": "booze-carriage",
+    "title": "Booze Carriage: Early Pioneers in Alcohol eCommerce",
+    "paragraph": "Booze Carriage was an alcohol delivery company started in Manhattan in 2012. Experience with a previous client in the wine delivery space gave us the insight we needed to solve their unique challenges.",
+    "challenges": [
+      {
+        "id": 1,
+        "title": "Legal Challenges",
+        "paragraph": "You weren't able to deliver alcohol by mail back then. But being based in Manhattan gave Booze Carriage an advantage - local delivery. There were no rules against having couriers and local delivery drivers delivering alcohol to your door. Booze carriage set themselves up as a marketing company and devised a way to circumvent the delivery rules of the time."
+      },
+      {
+        "id": 2,
+        "title": "Challenge: Creating a Vendor Ordering System",
+        "paragraph": "The method that allowed Booze Carriage to deliver to the Manhattan area was to set up ‘territories’ - set up via Zip Code. Each ‘partner’ was a liquor store in that particular zip code. \nWe set up separate Magento Marketplaces for each partner and used a Spreedly integration, which is a payments orchestration platform. \nEvery liquor store was set up as a vendor and every vendor would be set up in Spreedly as well. When you would come to the site, it would ask you for your zip. You would type in your zip code and it would show you the inventory for a specific liquor store. You could add everything to your cart and you could check out. \nWhen entering your Zip code, you'd be connected to that partner's marketplace, with their own inventory and checkout being shown. This was all transparent to the customer, and using Zip Codes as territories made certain that customers couldnt order from a partner from another zip code. \nAt check out, it would take your payment and since every vendor was set up in Spreedly, it was only one integration for us, but they could have 30 or 50 or 150 liquor stores each with their own payment gateway. When you shopped and paid for your product one of the caveats was you could only shop at one store at a time. \nThe order was placed via an automated fax via email to the partner. The partner would then fulfill the order. The payment would go directly to the liquor store partner. This was transparent to the consumer and their credit card information would show as ‘Booze Carriage’."
+      }
+    ],
+    "summary": "Working with Booze Carriage, we were able to connect users to local liquor stores via digital channels with a multi-vendor platform that allowed the company to deliver alcohol to the Manhattan area.",
+    "em": "Booze Carriage was acquired in March 2015 by Minibar Delivery, another New York-based based tech company that provides on-demand access to wine, liquor and beer.",
+    "what-we-did": [
+      {
+        "id": 1,
+        "img": "../../assets/icons/data-migration.svg",
+        "alt": "Data Migration",
+        "title": "Data Migration"
+      },
+      {
+        "id": 2,
+        "img": "../../assets/icons/project-management.svg",
+        "alt": "Project Management",
+        "title": "Project Management"
+      }
+    ]
   },
   {
     "id": 4,
-    "title": "Stadium Goods",
+    "name": "Stadium Goods",
     "img": "../../assets/our-work/stadium-goods.jpeg",
     "alt": "Stadium Goods",
-    "link": "/"
+    "link": "stadium-goods",
+    "title": "Starting a Sneaker Revolution with Stadium Goods",
+    "paragraph": "Stadium Goods came to us with the idea of revolutionizing the online sneaker consignment space. SUMO Heavy was contracted to build the entire site from the ground up, and today Stadium Goods one of the largest sneaker consignors worldwide. \nStadium Goods came to us with the idea of revolutionizing the online sneaker consignment space, and were on a mission to do just that. SUMO Heavy was contracted to build the entire site from the ground up, and today they are one of the largest sneaker consignors worldwide.",
+    "challenges": [
+      {
+        "id": 1,
+        "title": null,
+        "paragraph": "Stadium Goods came to SUMO Heavy with the challenge of building a new store from the ground up. It would first launch online, then retail, and would need to be built for fast growth. In their first 18 months, Stadium Goods had deals with some of the largest sneaker news outlets in the world, a successful retail store, and a website catering to a global audience. Once established, they raised $4.6 million from one of the most successful eCommerce VC firms around - Forerunner Ventures."
+      },
+      {
+        "id": 2,
+        "title": "Challenge - A Startup with Processes",
+        "paragraph": "Stadium Goods was not a project that had a year or two scheduled to build. It had to be done quickly and efficiently. This, combined with custom inventory models, non-standard integrations, and a small team was the first challenge. \nTo overcome this challenge, we set them up to be agile from the beginning. This was not a technical challenge, rather one of process. Many startups in their infancy will choose to forgo process, and 'do what needs to be done'. This is often a mistake, leading to tremendous technical debt later on. Rather than take this route, we worked with Stadium Goods to implement a solid Kanban process that would promote iteration. Features were built that would definitely change later, but were built in a way to allow that change rather than need to be rebuilt from nothing."
+      },
+      {
+        "id": 3,
+        "title": "Challenge - A Global Audience",
+        "paragraph": "Stadium Goods saw something special in TMALL, a massive marketplace spun out of Taobao. They wanted a real-time integration with TMALL, which is no easy task. To start, TMALL prefers that a partner builds the site. This can be a long and drawn out process due to time zone differences, unfamiliarity with the eCommerce platform that the partners' client is running, and even language barriers. \nThis is where SUMO Heavy stepped in and worked with Stadium Goods to build the integration. After many late-night calls with TMALL in China, working with translators, and even translating documents and API calls on our side, we were able to have a working integration on-time for when Stadium Goods needed it. This integration has grown with Stadium Goods, and they have even been featured on Alibaba video. \nhttps://www.youtube.com/watch?v=sRHeBBrOD0Y"
+      },
+      {
+        "id": 4,
+        "title": "Challenge - Multi-channel",
+        "paragraph": "In addition to TMALL, many other integrations are needed. One of the goals of Stadium Goods is to allow consignors to easily list and sell everywhere under a reputable brand. In fact, Amazon, eBay, and other markets are making it harder for smaller sellers to list their products because of rampant fraud issues within the industry. For example, Amazon now charges a fee to new sellers to be able to sell specific brands. Due to Stadium Goods' positive reputation and selling status, sellers have an easy time getting their product out on the market with a real chance to sell. \nSince Stadium Goods is a consignment shop, they sell individual products on behalf of different consignors. This means that if we have two pairs of the same shoe in the same size, each could have a different price or condition. \nWe worked with Stadium Goods to develop a sync mechanism that keeps all channels up to date upon every sale. This means that if one of those shoes sells on one channel, all other channels are notified and the necessary changes are applied. \nThese systems change over time as Stadium Goods grows, and new challenges in real-time sync are presented. It is an interesting challenge that we continually work on improving in terms of timing, performance, and accuracy."
+      },
+      {
+        "id": 5,
+        "title": "Challenge - Serialized Inventory",
+        "paragraph": "Stadium Goods required a non-standard inventory model, using that of inventory serialization. It needed to be efficient, and constantly updated. Every instance of a shoe can belong to a different consignor, have different pricing, conditions, and even live in other warehouses. We had to pull this off in a way that didn't make the catalog larger than necessary, so having one SKU per shoe would not be feasible. \nBecause thorough processes were implemented, we were able to work together alongside Stadium Goods and their ERP vendor to implement a model on top of their eCommerce platform that provided serialized inventory that integrates with not only their backend systems, but other retail channels as well."
+      }
+    ],
+    "summary": "By implementing formal planning, development, and deployment processes early on, Stadium Goods was able to launch in a timeframe of approximately 6 months. Since launch, the company has had extensive growth, and has expanded into global markets. \nSUMO Heavy continues working with Stadium Goods as new challenges are presented, including new business requirements, integrations, and efficiency iterations.",
+    "em": "StadiumGoods was acquired by Farfetch in December 2018",
+    "what-we-did": [
+      {
+        "id": 1,
+        "img": "../../assets/icons/agile-planning.svg",
+        "alt": "Agile Planning",
+        "title": "Agile Planning"
+      },
+      {
+        "id": 2,
+        "img": "../../assets/icons/discovery.svg",
+        "alt": "Discovery",
+        "title": "Discovery"
+      },
+      {
+        "id": 3,
+        "img": "../../assets/icons/growth-and-iteration.svg",
+        "alt": "Growth & Iteration",
+        "title": "Growth & Iteration"
+      }
+    ]
   },
   {
     "id": 5,
-    "title": "Pet360",
+    "name": "Pet360",
     "img": "../../assets/our-work/pet-360.jpeg",
     "alt": "Pet360",
-    "link": "/"
+    "link": "pet-360",
+    "title": "Pet360.com: Teaching an Old Dog New Tricks",
+    "paragraph": "By working with Pet360 on performance issues we were able to integrate ourselves internally to create a truly binding relationship. We not only handled and increased performance, but also became an ongoing part of product management, ultimately interfacing with every part of the business for over two years, frequently working with the customer on-site.",
+    "challenges": [
+      {
+        "id": 1,
+        "title": "Taking a Bite out of the Market",
+        "paragraph": "Pet360.com encountered issues with the full-page cache being constantly invalidated, causing longer than acceptable load times. In eCommerce, long load times have been directly correlated to lower conversion rates, so this was on the short list of items to resolve. \nThe second challenge was that, in particular cases, information was slow to load from the backend. The infrastructure looked good, but there were issues inherent to the platform that needed to be resolved. It takes a team with experience in these types of issues to fix them."
+      },
+      {
+        "id": 2,
+        "title": "Challenge 1 - Frontend Performance",
+        "paragraph": "We knew right away that there were a number of ways to resolve the issue. To get started, Pet360 quickly integrated us into the internal team. The Pet360 tech team was well organized into multiple subgroups that never operated independently. Their processes were already in place, which allowed us to easily get in and roll up our sleeves. \nWe discovered a number of issues, such as a tag vendor hole-punching the cache, and dynamic values being rendered directly on the page. The problem wasn’t that cache was broken, it was that everything was cacheable. What this means: Imagine logging into a website and sometimes a welcome message comes up (Welcome, John!). Something as small as this in the header this can trigger the need for every page to be re-cached, so as a new user you’re effectively browsing the site with the performance of it not being cached, and as the number of simultaneous users grows so does the cache (and its ineffectiveness). \nThe quick resolve was to implement to straightforward, but vital functions: \n 1) AJAX most dynamic blocks \n 2) Work with the tag vendor to make their data object return from an AJAX call \nThis difference of dynamic data isn’t problematic in this case. The reason is there are not a lot of dynamic blocks in the system due to an external personalization system being used to inject banners and other marketing imagery, and moving the tag vendor’s data object to an AJAX call was faster than it being part of the full page cache. \nThese changes reduced the need for full page caching in Magento, and the Ops team was able to utilize external caching with CloudFlare. Load times were significantly reduced, from a TTFB of over 5 seconds to under a half-second."
+      },
+      {
+        "id": 3,
+        "title": "Challenge 2 - Backend Performance",
+        "paragraph": "Next on our plate was to improve backend performance. Three important cases were: \n 1) Checkout \n 2) Search \n 3) Admin customer lookup \nMagento as an eCommerce platform is built with most stores in mind. This means that it needs to be well understood to have it work in a performant manner at scale for the stores outside of most."
+      },
+      {
+        "id": 4,
+        "title": "Admin",
+        "paragraph": "Pet360 has millions of customers, and Magento has a very normalized database. Any chance available to reduce the number of JOINs and full table scans used in the database, the happier your system will be. \nThe full-text search combined with JOINs would cause queries to take over 20 seconds and pin the CPU at 100% for 15-30 minutes due to full table scans. Knowing this, we know that Magento has flat table interfaces to be used for admin grids. However, this feature was never implemented for customers. We implemented a table that would act as an aggregate of the normalized customer table. This action reduced the search queries down to 0.017 seconds and directly increased the number of customer service calls that could be processed."
+      },
+      {
+        "id": 5,
+        "title": "Search",
+        "paragraph": "Pet360 had an external search vendor and it relied on search metrics that are part of the core Magento functionality. With heavy search volume, this quickly became a problem. We profiled the database queries being called and we were able to reduce one query in checkout from 0.45s to 0.0014s, and another from 2.0s to 0.0007s. This drastically improved checkout times and customer happiness."
+      },
+      {
+        "id": 6,
+        "title": "Checkout",
+        "paragraph": "The last piece to the slow backend queries was checkout. One particular query still took around 7 seconds to run, which is a half-second for the customer (a big chunk of time in checkout). \nUsing the new customer grid table that we implemented, we added one more column to track the customer nickname, reducing the time to an average of less than 0.02 seconds. \nThese are three examples of core Magento functionality that are easily improved using techniques already implemented in other parts of the system."
+      }
+    ],
+    "summary": "By initially working with Pet360 on these performance issues we were able to integrate ourselves internally to create a truly binding relationship. We not only handled and increased performance, but also became an ongoing part of product management, ultimately interfacing with every part of the business for over two years, frequently working with the customer on-site.",
+    "em": "Pet360 was acquired by PetSmart in September 2014.",
+    "what-we-did": [
+      {
+        "id": 1,
+        "img": "../../assets/icons/team-augmentation.svg",
+        "alt": "Team Augmentation",
+        "title": "Team Augmentation"
+      },
+      {
+        "id": 2,
+        "img": "../../assets/icons/agile-planning.svg",
+        "alt": "Agile Planning",
+        "title": "Agile Planning"
+      }
+    ]
   },
   {
     "id": 6,
-    "title": "Citibike",
+    "name": "Citi bike",
     "img": "../../assets/our-work/citibike.jpeg",
     "alt": "Citibike",
-    "link": "/"
+    "link": "citibike",
+    "title": "SUMO Heavy Keeps Citi Bike on the Move",
+    "paragraph": "Motivate came to SUMO Heavy in need of a team that could work as a technology extension of their company while they started to grow their product offering. During our time with Motivate, we provided product management, architecture, and engineering on the CitiBike website, Android app, iOS app, and various integrations. \nIn 2015 after acquiring Alta, Motivate came to SUMO Heavy in need of a team that could work as a technology extension of their company while they started to grow their product offering. Internally, they had no engineering or product management that was involved on a daily basis with a set of tools to manage a portfolio of products. During our time with Motivate, we provided product management, architecture, and engineering on the Citi Bike website, Android app, iOS app, and various integrations.",
+    "challenges": [
+      {
+        "id": 1,
+        "title": "Challenge - Apps without Management",
+        "paragraph": "The Android and iOS Citi Bike apps were both more or less as a proof-of-concept and were not being actively maintained. Owning Android and iOS apps require constant and ongoing maintenance. Throughout each year, Google and Apple release new versions of their operating systems. Whether you are working with a major or minor release, your apps will need to be thoroughly tested against these versions. In addition to operating system releases, new devices are released that apps need to be tested against for compatibility. \nWith dozens of devices available running on various versions of operating systems, it takes thoughtful planning and product management. After working with Motivate on a feature roadmap, we implemented a Kanban process along with a continuous deployment system to push features live as needed. \nWe also worked together to implement a formalized beta program for users that were interested in testing new features."
+      },
+      {
+        "id": 2,
+        "title": "Challenge - Growing Audience",
+        "paragraph": "The initial apps had poor performance and were essentially a map and list of bike locations that would only update when the app was first opened. This was not helpful to someone trying to find a bike to ride because the available inventory was constantly changing. \nOur first task was to fix the performance problems. The app would constantly freeze and crash, and didn't feel responsive to the touch. Reviews were very negative in the beginning but provided insight into what would need to be done in the near term. \nAs we worked through the performance issues, we started to see reviews turn from negative comments into more of a wishlist. This provided useful information to use during product planning sessions. \nAfter many product planning sessions with Motivate and strategy discussions with their backend provider, we were able to architect the next two important features: real-time updates and account management. Real-time updates allowed users to receive notifications of their start and end rides, and also see the available inventory update on their map while browsing for a bike to ride. \nThe end result was a set of apps that were more reliable and ready for production, and their usage could be actively monitored and measured with new tools that were implemented."
+      },
+      {
+        "id": 3,
+        "title": "Challenge - Apps without Parity",
+        "paragraph": "While Citibike had both Android and iOS apps, they did not have the same features. While the initial focus was on iOS, once Motivate had a solid direction and few features deployed it was time to create the Android app. \nOnce the Android app had the same features as the iOS app, Motivate would be positioned to deploy features at the same time to both apps. This would allow users of all applicable devices and operating systems to be familiar with the app on any of their devices."
+      }
+    ],
+    "summary": "By implementing the planning, development, and deployment processes, Motivate was able to implement the features that would provide the foundation for an app that customers would actively use. The apps were stable and more feature-rich than ever before and most importantly, the view of the customers visibly changed through app reviews.",
+    "em": "Motivate was acquired by Lyft in July 2018.",
+    "what-we-did": [
+      {
+        "id": 1,
+        "img": "../../assets/icons/agile-planning.svg",
+        "alt": "Agile Planning",
+        "title": "Agile Planning"
+      },
+      {
+        "id": 2,
+        "img": "../../assets/icons/discovery.svg",
+        "alt": "Discovery",
+        "title": "Discovery"
+      },
+      {
+        "id": 3,
+        "img": "../../assets/icons/growth-and-iteration.svg",
+        "alt": "Growth & Iteration",
+        "title": "Growth & Iteration"
+      }
+    ]
   }
 ]

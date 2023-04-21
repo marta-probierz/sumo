@@ -23,6 +23,7 @@ import { HomeCardsService } from './services/home-cards.service';
 import { ContactComponent } from './contact/contact.component';
 import { OurWorkComponent } from './our-work/our-work.component';
 import { FormComponent } from './shared/form/form.component';
+import { DetailsComponent } from './our-work/details/details.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { FormComponent } from './shared/form/form.component';
     ContactComponent,
     OurWorkComponent,
     FormComponent,
+    DetailsComponent,
   ],
   imports: [
     BrowserModule,
