@@ -1,0 +1,67 @@
+.details {
+  white-space: pre;
+  
+  .intro {
+    position: relative;
+
+    img {
+      width: 100%;
+      height: 600px;
+      object-fit: cover;
+      position: relative;
+
+      @media (max-width: 768px) {
+        height: auto;
+      }
+    }
+
+    .text-img {
+      color: #fff;
+      min-width: 750px;
+      position: absolute;
+      top: 55%;
+      right: 20%;
+
+      @media (max-width: 1128px) {
+        right: 5%;
+      }
+
+      @media (max-width: 992px) {
+        right: 1%;
+      }
+
+      @media (max-width: 768px) {
+        min-width: 95%;
+        left: 1%;
+        top: 85%;
+      }
+
+      h1 {
+        background-color: #000;
+        padding: 15px;
+        font-size: 80px;
+        font-weight: 900;
+        margin-top: -10px;
+
+        @media (max-width: 992px) {
+          font-size: 60px;
+        }
+
+        @media (max-width: 768px) {
+          font-size: 30px;
+        }
+      }
+
+      h5 {
+        background-color: #ce1125;
+        padding: 15px;
+        font-size: 20px;
+        font-weight: 900;
+      }
+
+      @media (max-width: 768px) {
+        font-size: 14px;
+      }
+    }
+  }
+}

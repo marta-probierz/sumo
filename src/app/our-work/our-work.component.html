@@ -8,9 +8,9 @@
       </p>
     </div>
     <div *ngFor="let cardData of ourWorkCardsData" class="col-12 col-md-6">
-      <a [routerLink]="cardData.link" class="a-container">
+      <a [routerLink]="[cardData.link]" class="a-container">
         <img class="img-fluid" [src]="cardData.img" [alt]="cardData.alt" />
-        <h5 class="text-img">{{ cardData.title }}</h5>
+        <h5 class="text-img">{{ cardData.name }}</h5>
       </a>
     </div>
   </div>
