@@ -31,7 +31,7 @@
     ],
     "summary": "By beginning with a thorough business analysis conducted during our Weigh In process, we were able to launch Sourpuss Clothing on Shopify Plus weeks before their Black Friday deadline. Since migrating to Shopify Plus, Sourpuss Clothing has seen increased Core Web Vitals scores, improved conversion rate, increased average order value, and most importantly strong positive growth year-over-year.",
     "em": "We’re excited to embark on Sourpuss Clothing’s next chapter in the life of their eCommerce site, and we’re ready to see what the next ten years will hold!",
-    "what-we-did": [
+    "whatWeDid": [
       {
         "id": 1,
         "img": "../../assets/icons/discovery.svg",
@@ -79,7 +79,7 @@
     ],
     "summary": "Migrating one large Magento Enterprise edition to multiple Community edition stores allowed Treehouse to resolve performance issues,helped lower costs, and allow each site to scale separately.",
     "em": "Treehouse was acquired by ThinkGeek, and finally by GameStop.",
-    "what-we-did": [
+    "whatWeDid": [
       {
         "id": 1,
         "img": "../../assets/icons/platform-migration.svg",
@@ -122,7 +122,7 @@
     ],
     "summary": "Working with Booze Carriage, we were able to connect users to local liquor stores via digital channels with a multi-vendor platform that allowed the company to deliver alcohol to the Manhattan area.",
     "em": "Booze Carriage was acquired in March 2015 by Minibar Delivery, another New York-based based tech company that provides on-demand access to wine, liquor and beer.",
-    "what-we-did": [
+    "whatWeDid": [
       {
         "id": 1,
         "img": "../../assets/icons/data-migration.svg",
@@ -174,7 +174,7 @@
     ],
     "summary": "By implementing formal planning, development, and deployment processes early on, Stadium Goods was able to launch in a timeframe of approximately 6 months. Since launch, the company has had extensive growth, and has expanded into global markets. \nSUMO Heavy continues working with Stadium Goods as new challenges are presented, including new business requirements, integrations, and efficiency iterations.",
     "em": "StadiumGoods was acquired by Farfetch in December 2018",
-    "what-we-did": [
+    "whatWeDid": [
       {
         "id": 1,
         "img": "../../assets/icons/agile-planning.svg",
@@ -212,12 +212,12 @@
       {
         "id": 2,
         "title": "Challenge 1 - Frontend Performance",
-        "paragraph": "We knew right away that there were a number of ways to resolve the issue. To get started, Pet360 quickly integrated us into the internal team. The Pet360 tech team was well organized into multiple subgroups that never operated independently. Their processes were already in place, which allowed us to easily get in and roll up our sleeves. \nWe discovered a number of issues, such as a tag vendor hole-punching the cache, and dynamic values being rendered directly on the page. The problem wasn’t that cache was broken, it was that everything was cacheable. What this means: Imagine logging into a website and sometimes a welcome message comes up (Welcome, John!). Something as small as this in the header this can trigger the need for every page to be re-cached, so as a new user you’re effectively browsing the site with the performance of it not being cached, and as the number of simultaneous users grows so does the cache (and its ineffectiveness). \nThe quick resolve was to implement to straightforward, but vital functions: \n 1) AJAX most dynamic blocks \n 2) Work with the tag vendor to make their data object return from an AJAX call \nThis difference of dynamic data isn’t problematic in this case. The reason is there are not a lot of dynamic blocks in the system due to an external personalization system being used to inject banners and other marketing imagery, and moving the tag vendor’s data object to an AJAX call was faster than it being part of the full page cache. \nThese changes reduced the need for full page caching in Magento, and the Ops team was able to utilize external caching with CloudFlare. Load times were significantly reduced, from a TTFB of over 5 seconds to under a half-second."
+        "paragraph": "We knew right away that there were a number of ways to resolve the issue. To get started, Pet360 quickly integrated us into the internal team. The Pet360 tech team was well organized into multiple subgroups that never operated independently. Their processes were already in place, which allowed us to easily get in and roll up our sleeves. \nWe discovered a number of issues, such as a tag vendor hole-punching the cache, and dynamic values being rendered directly on the page. The problem wasn’t that cache was broken, it was that everything was cacheable. What this means: Imagine logging into a website and sometimes a welcome message comes up (Welcome, John!). Something as small as this in the header this can trigger the need for every page to be re-cached, so as a new user you’re effectively browsing the site with the performance of it not being cached, and as the number of simultaneous users grows so does the cache (and its ineffectiveness). \nThe quick resolve was to implement to straightforward, but vital functions: \n• AJAX most dynamic blocks \n• Work with the tag vendor to make their data object return from an AJAX call \nThis difference of dynamic data isn’t problematic in this case. The reason is there are not a lot of dynamic blocks in the system due to an external personalization system being used to inject banners and other marketing imagery, and moving the tag vendor’s data object to an AJAX call was faster than it being part of the full page cache. \nThese changes reduced the need for full page caching in Magento, and the Ops team was able to utilize external caching with CloudFlare. Load times were significantly reduced, from a TTFB of over 5 seconds to under a half-second."
       },
       {
         "id": 3,
         "title": "Challenge 2 - Backend Performance",
-        "paragraph": "Next on our plate was to improve backend performance. Three important cases were: \n 1) Checkout \n 2) Search \n 3) Admin customer lookup \nMagento as an eCommerce platform is built with most stores in mind. This means that it needs to be well understood to have it work in a performant manner at scale for the stores outside of most."
+        "paragraph": "Next on our plate was to improve backend performance. Three important cases were: \n• Checkout \n• Search \n• Admin customer lookup \nMagento as an eCommerce platform is built with most stores in mind. This means that it needs to be well understood to have it work in a performant manner at scale for the stores outside of most."
       },
       {
         "id": 4,
@@ -237,7 +237,7 @@
     ],
     "summary": "By initially working with Pet360 on these performance issues we were able to integrate ourselves internally to create a truly binding relationship. We not only handled and increased performance, but also became an ongoing part of product management, ultimately interfacing with every part of the business for over two years, frequently working with the customer on-site.",
     "em": "Pet360 was acquired by PetSmart in September 2014.",
-    "what-we-did": [
+    "whatWeDid": [
       {
         "id": 1,
         "img": "../../assets/icons/team-augmentation.svg",
@@ -279,7 +279,7 @@
     ],
     "summary": "By implementing the planning, development, and deployment processes, Motivate was able to implement the features that would provide the foundation for an app that customers would actively use. The apps were stable and more feature-rich than ever before and most importantly, the view of the customers visibly changed through app reviews.",
     "em": "Motivate was acquired by Lyft in July 2018.",
-    "what-we-did": [
+    "whatWeDid": [
       {
         "id": 1,
         "img": "../../assets/icons/agile-planning.svg",

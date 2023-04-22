@@ -1,6 +1,4 @@
 .details {
-  white-space: pre;
-  
   .intro {
     position: relative;
 
@@ -20,7 +18,11 @@
       min-width: 750px;
       position: absolute;
       top: 55%;
-      right: 20%;
+      right: 18%;
+
+      @media (max-width: 1550px) {
+        right: 10%;
+      }
 
       @media (max-width: 1128px) {
         right: 5%;
@@ -63,5 +65,35 @@
         font-size: 14px;
       }
     }
+  }
+}
+
+em {
+  font-weight: 100;
+}
+
+:host ::ng-deep .p-card {
+  padding: 10px;
+  box-shadow: 8px 8px 24px 0px rgba(128, 128, 128, 0.5);
+
+  .p-card-title {
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 1.2;
+    color: #353535;
+    margin-left: 10px;
+
+    @media (max-width: 768px) {
+      text-align: center;
+      margin-left: 0;
+    }
+  }
+
+  .icon {
+    margin: 5px 10px;
+  }
+
+  p {
+    margin: 8px 0;
   }
 }
