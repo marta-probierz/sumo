@@ -7,3 +7,45 @@
     </div>
   </div>
 </div>
+<div class="container p-5 mt-5 mt-md-2">
+  <div class="row g-4 mt-2 mt-md-0">
+    <div class="col-12 col-md-6 order-1 order-md-12 mt-0 mt-md-2 mt-lg-3">
+      <h4>{{ ourWorkCardsData?.title }}</h4>
+      <p style="white-space: break-spaces">
+        {{ ourWorkCardsData?.paragraph }}
+      </p>
+    </div>
+    <div class="col-12 col-md-6 mb-5 mb-md-0 mt-5 mt-md-2 order-12 order-md-1">
+      <p-card
+        header="What we did"
+        class="d-flex justify-content-center justify-content-md-end"
+        [style]="{ width: '360px' }"
+      >
+        <div
+          *ngFor="let cardData of ourWorkCardsData?.whatWeDid"
+          class="d-flex"
+        >
+          <img
+            [src]="cardData.img"
+            [alt]="cardData.alt"
+            width="30px"
+            class="icon"
+          />
+          <p>{{ cardData.title }}</p>
+        </div>
+      </p-card>
+    </div>
+  </div>
+  <h4 class="mt-5 mt-md-3 mb-2">Challenges</h4>
+  <div
+    *ngFor="let cardData of ourWorkCardsData?.challenges"
+    style="white-space: break-spaces"
+  >
+    <h5>{{ cardData.title }}</h5>
+    <p>{{ cardData.paragraph }}</p>
+  </div>
+  <h4 class="mt-3">Summary</h4>
+  <p style="white-space: break-spaces">{{ ourWorkCardsData?.summary }}</p>
+  <em>{{ ourWorkCardsData?.em }}</em>
+</div>
+<app-form></app-form>

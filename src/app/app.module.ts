@@ -9,6 +9,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ToastModule } from 'primeng/toast';
 import { MatSelectModule } from '@angular/material/select';
 import { MatDividerModule } from '@angular/material/divider';
+import { CardModule } from 'primeng/card';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -53,6 +54,7 @@ import { DetailsComponent } from './our-work/details/details.component';
     HttpClientModule,
     MatSelectModule,
     MatDividerModule,
+    CardModule,
   ],
   providers: [HomeCardsService],
   bootstrap: [AppComponent],
