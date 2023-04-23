@@ -7,11 +7,13 @@ import { TermsComponent } from './terms/terms.component';
 import { ContactComponent } from './contact/contact.component';
 import { OurWorkComponent } from './our-work/our-work.component';
 import { DetailsComponent } from './our-work/details/details.component';
+import { CapabilitiesComponent } from './capabilities/capabilities.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'our-work', component: OurWorkComponent },
   { path: 'our-work/:link', component: DetailsComponent },
+  { path: 'capabilities', component: CapabilitiesComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'terms', component: TermsComponent },
   { path: 'privacy-policy', component: PrivacyPolicyComponent },

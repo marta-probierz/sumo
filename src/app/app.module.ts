@@ -25,6 +25,7 @@ import { ContactComponent } from './contact/contact.component';
 import { OurWorkComponent } from './our-work/our-work.component';
 import { FormComponent } from './shared/form/form.component';
 import { DetailsComponent } from './our-work/details/details.component';
+import { CapabilitiesComponent } from './capabilities/capabilities.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { DetailsComponent } from './our-work/details/details.component';
     OurWorkComponent,
     FormComponent,
     DetailsComponent,
+    CapabilitiesComponent,
   ],
   imports: [
     BrowserModule,
