@@ -5,7 +5,24 @@
     "img": "../../assets/icons/agile-planning.svg",
     "alt": "Agile Planning",
     "link": "agile-planning",
-    "introduction": "One of the top inefficiencies that we find in our clients' organizations is that of process. Clients struggle to maintain legacy applications with teams who inherited them, and others are growing more rapidly than they can handle. In some cases, there is a sheer unwillingness to perform the necessary administrative work to show the value of their work to the business."
+    "introduction": "One of the top inefficiencies that we find in our clients' organizations is that of process. Clients struggle to maintain legacy applications with teams who inherited them, and others are growing more rapidly than they can handle. In some cases, there is a sheer unwillingness to perform the necessary administrative work to show the value of their work to the business.",
+    "details": [
+      {
+        "id": 1,
+        "title": "Product Management",
+        "description": "Having enough people throughout your organization that understands each product is vital to the success of those products. Not only do you need to determine the appropriate number of people, but you'll also need to find managers that are proficient in technical writing and prioritization. SUMO Heavy has in-depth knowledge in this area and can assist in two ways: \n 1. Providing product management for your technical products \n 2. Training existing staff in successful product management"
+      },
+      {
+        "id": 2,
+        "title": "Agile Project Management",
+        "description": "Before product managers can be successful, a solid process framework needs to be created. Our clients span a spectrum of sizes. Some have no internal management for technical projects, others have more than a dozen engineering teams. Every organization's processes differ, and it's important to find one that works for you. We will work with you to evaluate, document, implement, and maintain your agile processes to ensure product management success."
+      },
+      {
+        "id": 3,
+        "title": "Monitoring",
+        "description": "For processes to improve, they need to be monitored. SUMO Heavy works with their clients to create agile management dashboards, which serve everyone in management as well as the C-suite. These dashboards are tailored to your process and integrated with your project management system so that you can understand the performance of each of your engineering teams as well as the organization as a whole."
+      }
+    ]
   },
   {
     "id": 2,
@@ -13,7 +30,24 @@
     "img": "../../assets/icons/ci-cd.svg",
     "alt": "CI/CD",
     "link": "ci-cd",
-    "introduction": "Companies large and small have been bitten by waterfall project management. From strong dependencies to long manual regression test periods, this process can often lead to significant delays. Due to this, companies which can endure the switch to continuous integration and continuous delivery/deployment are pushing out new features faster than ever because they make small, incremental changes. \nThe idea is that throughout each day, features are created and deployed – often behind a feature flag. Once a feature is ready, the flag is enabled and the feature is activated. By the time the flag is active in production, automated testing would occur on each code push. By using a feature flag and a service such as Launch Darkly or Rollout, you can gradually enable the feature based on any parameters you wish, such as a simple percentage, location, or based on user profile information."
+    "introduction": "Companies large and small have been bitten by waterfall project management. From strong dependencies to long manual regression test periods, this process can often lead to significant delays. Due to this, companies which can endure the switch to continuous integration and continuous delivery/deployment are pushing out new features faster than ever because they make small, incremental changes. \nThe idea is that throughout each day, features are created and deployed – often behind a feature flag. Once a feature is ready, the flag is enabled and the feature is activated. By the time the flag is active in production, automated testing would occur on each code push. By using a feature flag and a service such as Launch Darkly or Rollout, you can gradually enable the feature based on any parameters you wish, such as a simple percentage, location, or based on user profile information.",
+    "details": [
+      {
+        "id": 1,
+        "title": "Continuous Delivery vs. Continuous Deployment",
+        "description": "There are two primary schools of thought when it comes to CI / CD. The continuous integration piece largely remains the same – code is merged into your master branch throughout the day, builds are run, and the code is self-testing. The CD part is where a decision is made: do you continuously 'deliver' and push a button to deploy, or do you continuously 'deploy', where everything is automated? We find that this is often a path, where our clients will be more comfortable pushing a button to deploy at first. Then, as their project becomes more well-tested, they will move to fully automated deployments with feature flags. Another reason we find companies will prefer continuous delivery over deployment is for regulatory reasons, where multi-level approvals are mandated."
+      },
+      {
+        "id": 2,
+        "title": "Happier End-Users",
+        "description": "New services and platforms pop up every day, so it's important not to become stagnant. If your releases are weekly, monthly, or even worse – yearly, it will be difficult to retain your users. CI / CD allows you to push new features every day, which are noticeable. These frequent changes will keep your users engaged, and many times encourages feedback. Users seeing their feedback integrated into your product is one of the best ways to maintain retention."
+      },
+      {
+        "id": 3,
+        "title": "Happier Engineers",
+        "description": "Engineers want to build. Long release cycles can be boring and painful and are driven by meetings on top of meetings. Focusing on smaller features and continuously rolling them out is more exciting, and will keep your engineers engaged. Rather than working on the same thing day in and day out, a wider variety of solutions will come across their plates, which will drive more creativity and better overall output."
+      }
+    ]
   },
   {
     "id": 3,
@@ -21,7 +55,29 @@
     "img": "../../assets/icons/cost-savings.svg",
     "alt": "Cost Savings",
     "link": "cost-savings",
-    "introduction": "Saving money is as important as making money. \nAt scale, even a small change can make a significant impact on your bottom line. SUMO Heavy assists its clients with many cost-saving exercises. Cost savings not only help your business grow, but also easily justify the cost of keeping us on retainer."
+    "introduction": "Saving money is as important as making money. \nAt scale, even a small change can make a significant impact on your bottom line. SUMO Heavy assists its clients with many cost-saving exercises. Cost savings not only help your business grow, but also easily justify the cost of keeping us on retainer.",
+    "details": [
+      {
+        "id": 1,
+        "title": "Reviewing technical spend",
+        "description": "Having the proper set of tools is incredibly vital to the process and workflow. However, we've found that many software packages are underutilized or improperly licensed. By working with our clients to replace unused or inefficient software, we contribute value directly back to the business. In other cases, hosting infrastructure may not be taking advantage of easily procured discounts."
+      },
+      {
+        "id": 2,
+        "title": "Evaluating current technologies and processes, then proposing new ones",
+        "description": "Inefficient technical processes waste money. Throughput may be unacceptably low, which in turn lowers the value of each feature that manages to be completed. Another issue is that it takes much more time than it should to complete a feature. We work with businesses of varying sizes in many different industries to create processes that provide higher throughput, better return, and satisfied management."
+      },
+      {
+        "id": 3,
+        "title": "Analyzing logistics operations for incremental improvement",
+        "description": "Shipping is hard - especially when the rules are constantly changing. Spending less money per order going out the door while maintaining the same lead time can save millions. Working with our clients, their warehouses, and carriers, we are able to build a program that will save money for every single order that goes out the door."
+      },
+      {
+        "id": 4,
+        "title": "Vendor usage analysis",
+        "description": "Many vendors have similar offerings. By evaluating the actual usage of vendor-supplied software as well as alternatives, SUMO Heavy helps our clients choose and implement software packages, then work with the vendors to train employees. We then produce extensive written materials and user guides, along with a maintenance plan to help our clients stay on track."
+      }
+    ]
   },
   {
     "id": 4,
@@ -29,7 +85,34 @@
     "img": "../../assets/icons/data-migration.svg",
     "alt": "Data Migration",
     "link": "data-migration",
-    "introduction": "Migrating data from one system to another requires careful planning and precise execution. Data Migrations come in all shapes and sizes. Whether you're going through a platform migration, ERP migration, or are combining systems together, data migrations have a significant impact on your business. We'll help you document your existing system, so there is a clear understanding of the data that needs to be moved. This is an opportunity to decide whether processes can be simplified, redundancies can be eliminated, or other changes can be implemented. As your migration proceeds, we will thoroughly test your data to ensure that accuracy is maintained and that your new system is ready for success."
+    "introduction": "Migrating data from one system to another requires careful planning and precise execution. Data Migrations come in all shapes and sizes. Whether you're going through a platform migration, ERP migration, or are combining systems together, data migrations have a significant impact on your business. We'll help you document your existing system, so there is a clear understanding of the data that needs to be moved. This is an opportunity to decide whether processes can be simplified, redundancies can be eliminated, or other changes can be implemented. As your migration proceeds, we will thoroughly test your data to ensure that accuracy is maintained and that your new system is ready for success.",
+    "details": [
+      {
+        "id": 1,
+        "title": "Legacy Systems",
+        "description": "Moving off of a legacy system to something more modern? We'll ensure your data gets moved entirely so you can keep your business running."
+      },
+      {
+        "id": 2,
+        "title": "New eCommerce Platforms",
+        "description": "Making a move from one eCommerce platform to another? We'll transfer your data seamlessly."
+      },
+      {
+        "id": 3,
+        "title": "Platform Upgrade",
+        "description": "Moving from Magento 1 to Magento 2? Your store's data will be safe and sound!"
+      },
+      {
+        "id": 4,
+        "title": "AS/400",
+        "description": "Need to connect an AS/400 system to your eCommerce site? We'll make sure your systems are fully integrated."
+      },
+      {
+        "id": 5,
+        "title": "ERP Migration",
+        "description": "We'll help you migrate data from one ERP to another, so your business keeps moving forward."
+      }
+    ]
   },
   {
     "id": 5,
@@ -37,7 +120,34 @@
     "img": "../../assets/icons/digital-transformation.svg",
     "alt": "Digital Transformation",
     "link": "digital-transformation",
-    "introduction": "If you're not prepared for the digital age, you might find your company left behind. If you still rely on outdated 'pen-and-paper processes,' then it's time to think about digitizing. \nThe big question that's always asked: where do you begin?"
+    "introduction": "If you're not prepared for the digital age, you might find your company left behind. If you still rely on outdated 'pen-and-paper processes,' then it's time to think about digitizing. \nThe big question that's always asked: where do you begin?",
+    "details": [
+      {
+        "id": 1,
+        "title": "SUMO Heavy works with clients to analyze various aspects of your business:",
+        "description": "• Accounting and Logistics \n• Customer Support \n• Development \n• Methodologies \n• Leadership Operations \nWe work with our clients to identify each of the parts of their business that would benefit from digitization and create a strategic plan that addresses any issues identified during our competitive analysis."
+      },
+      {
+        "id": 2,
+        "title": "Accounting moreover Logistics",
+        "description": "A common inefficiency that we find among clients is that their accounting and logistics processes are still done manually. We help identify the best accounting and shipping software for your business. We'll develop a plan to formalize the existing processes and find the right implementation partners and see the plan through until it's finished."
+      },
+      {
+        "id": 3,
+        "title": "Customer Support",
+        "description": "Customer support processes are rarely formalized until companies grow to where they realize they realize they need to take action. We've worked with SMBs and large-scale enterprises to identify and fix customer support flows that reduce their spend and customer frustration. We help our clients maintain a path of savings growth year over year by taking the time to implement customer support workflows and tools correctly."
+      },
+      {
+        "id": 4,
+        "title": "Development and Operations",
+        "description": "It's rare to see a workflow entirely in-tune with the business' needs. Whether it's a cultural misalignment or issues with regulatory compliance, it is vital that our clients' inefficiencies don't grow with their development and operational teams. By interviewing leadership, engineers, and operational departments, we can implement development workflows that solve for accountability and efficiency, to deploy more features that are less error-prone and comply with the business' regulatory needs."
+      },
+      {
+        "id": 5,
+        "title": "Leadership",
+        "description": "A company with non-technical leadership is bound for catastrophe. The perception of the importance of technology and its impact on company starts with leadership. Staff misaligned with leaders can lead to high turnover, low throughput, and high rates of error. We work with our client's leadership to ensure they are willing to move the company into a digital direction – or to bring in the right people that can. This crucial part of digital transformation will lead to the plan's success or failure."
+      }
+    ]
   },
   {
     "id": 6,
@@ -45,7 +155,29 @@
     "img": "../../assets/icons/discovery.svg",
     "alt": "Discovery",
     "link": "discovery",
-    "introduction": "At SUMO Heavy, discovery is a foundational phase for a successful relationship. We learn your business, processes, and products, and gain insight into how well we work together. \nDuring this mandatory phase, we learn as much as possible about your business as possible. The process can last between one and three months. During this time, the SUMO Heavy team will perform stakeholder interviews, break down the development and business processes, and create a roadmap based on detailed requirements. This includes on-site and video conference meetings, as well as planning and documentation. \nAt the end of the discovery phase, all formalized documentation is presented. Generally, it's a report full of surprising information and issues that you may or may not be aware of. Our discoveries have helped teams discover how badly they need processes they don't have, and have even uncovered issues that take just moments to address but have millions of dollars in impact."
+    "introduction": "At SUMO Heavy, discovery is a foundational phase for a successful relationship. We learn your business, processes, and products, and gain insight into how well we work together. \nDuring this mandatory phase, we learn as much as possible about your business as possible. The process can last between one and three months. During this time, the SUMO Heavy team will perform stakeholder interviews, break down the development and business processes, and create a roadmap based on detailed requirements. This includes on-site and video conference meetings, as well as planning and documentation. \nAt the end of the discovery phase, all formalized documentation is presented. Generally, it's a report full of surprising information and issues that you may or may not be aware of. Our discoveries have helped teams discover how badly they need processes they don't have, and have even uncovered issues that take just moments to address but have millions of dollars in impact.",
+    "details": [
+      {
+        "id": 1,
+        "title": "Interviews",
+        "description": "During the interview portion of discovery, we have open discussions with everyone on the team. This not only includes C-level executives but more importantly the people that are involved in the day-to-day running of the business: project and product managers, engineers, customer service, and warehouse staff. It's not unusual to uncover one person performing a process that could hold a powerful impact across the business. The best processes happen organically and are often discovered by talking to people where efficiency means the difference between getting everything out the door – or missing deadlines."
+      },
+      {
+        "id": 2,
+        "title": "Business Process Review",
+        "description": "Isolation needs to be removed from business processes. In order to help our clients build efficient processes, we need to gain a complete understanding of all the moving pieces. An eCommerce website will affect accounting, which affects salespeople, and the warehouse, and customer service. We often find that many departments or even different engineering teams – work in isolation. They'll have different standards and ways of approaching problems that can cause internal confusion across the organization. \nSome examples of business processes that will be documented are (but not limited to): \n• Integrations \n• Marketing platforms and tags \n• Internal communication flows \n• Use of various software packages \n• Development Workflow \nEvery engineering team uses a slightly different workflow which fulfills their business' requirements. It's imperative that this process is documented. The development processes, along with build tools and deployment pipelines need to be fully understood in order for us to participate in the daily management of your software development lifecycle. Some clients prefer SUMO Heavy's development workflow after a collaborative review of it, and others prefer for us to act as an extension of their existing teams. [ the choice is yours etc] \nDevelopment workflows often reflect the requirements of regulatory compliance. These are but a few of the processes SUMO Heavy can implement: \n• COPPA \n• DSHEA \n• GDPR & GDPR-K \n• HIPAA \n• PCI \n• VIPPS \nAs your partner, we are aware of your company's external requirements so that we can help develop the most impactful development workflows and understand the impact. Many times the cost savings with a particular development workflow or process relates to regulatory audits which can occur periodically or unexpectedly."
+      },
+      {
+        "id": 3,
+        "title": "Code Review",
+        "description": "Code reviews are incredibly important -- not only during the lifecycle of a project, but especially when working on a project that we have not yet been introduced to. Having a 'fresh set of eyes' on code can provide insight based on our extensive experience with high-volume and real-time software requirements. Any inefficiencies found by having other points of view are documented and prioritized, as well as other maintenance and technical debt. \nDuring the code review, we review your application code with your engineering team, as a collaborative effort. This will help us make recommendations for build systems, static analysis, and other automated testing that can help make your applications more reliable."
+      },
+      {
+        "id": 4,
+        "title": "Cost Analysis & Reduction",
+        "description": "At SUMO Heavy, we strongly believe that cost savings are as important as growth. Our clients agree, with some having entire processes to schedule time into yearly plans for cost-saving projects. While many companies hear 'cost-savings' and thinking about terminating jobs, we prefer to see it happen through efficiency. By having better processes, software, and integrations that serve your company in a more individualized manner, costs can be cut and existing teams will have more time to use the power of their minds for feature planning rather than bug fixing. Our goal is to help you get as much as possible out of this, by analyzing inefficiencies and documenting solutions."
+      }
+    ]
   },
   {
     "id": 7,
@@ -53,7 +185,39 @@
     "img": "../../assets/icons/gdpr.svg",
     "alt": "GDPR",
     "link": "gdpr",
-    "introduction": "Are you wondering if GDPR has an impact on your business? (Spoiler alert: It does!) \nSUMO Heavy has extensive experience helping businesses prepare for and maintain GDPR compliance procedures. \nAny online business, regardless of geography, is affected by the new General Data Protection Regulation (GDPR) that went into effect on May 25, 2018. This comprehensive privacy regulation puts end-users in control of their personal data but more importantly requires businesses to be transparent in acknowledging how they use their customer’s data. \nGPDR readiness is an ongoing process that requires all facets of your business including your internal and external partners, and your development company to work together to maintain an ever-evolving compliance strategy. From growing enterprises to established multi-billion dollar companies, we have proven experience with GDPR."
+    "introduction": "Are you wondering if GDPR has an impact on your business? (Spoiler alert: It does!) \nSUMO Heavy has extensive experience helping businesses prepare for and maintain GDPR compliance procedures. \nAny online business, regardless of geography, is affected by the new General Data Protection Regulation (GDPR) that went into effect on May 25, 2018. This comprehensive privacy regulation puts end-users in control of their personal data but more importantly requires businesses to be transparent in acknowledging how they use their customer’s data. \nGPDR readiness is an ongoing process that requires all facets of your business including your internal and external partners, and your development company to work together to maintain an ever-evolving compliance strategy. From growing enterprises to established multi-billion dollar companies, we have proven experience with GDPR.",
+    "details": [
+      {
+        "id": 1,
+        "title": "Partnership",
+        "description": "GDPR can be overwhelming for businesses. We’ll help cut through the noise and take some of the complexity out of ensuring you’re compliant. We’ll work with your team and your legal advisors to get and keep you compliant."
+      },
+      {
+        "id": 2,
+        "title": "Evaluation",
+        "description": "Online businesses are constantly considering new marketing partners and initiatives. We're here to help you evaluate new and existing partners to ensure they're a good fit within your GDPR strategy."
+      },
+      {
+        "id": 3,
+        "title": "Express Consent",
+        "description": "GDPR requires that your users give 'express consent' before you track their behaviors. We’ll help you understand what’s required for express consent and help ensure you’re following industry practices."
+      },
+      {
+        "id": 4,
+        "title": "Data Handling",
+        "description": "We’ll help you understand the role your business takes in controlling and processing your user’s data. You'll also be prepared to meet a customer’s requests to access their personal information."
+      },
+      {
+        "id": 5,
+        "title": "Evolving Regulations",
+        "description": "As privacy regulations continue to change and evolve, we'll work with you to improve your processes and procedures."
+      },
+      {
+        "id": 6,
+        "title": "Feeling Uncertain?",
+        "description": "Don't stress! Whether you need a review of your current readiness, or you're looking for assistance in crafting a GDPR compliance plan, we're here to help."
+      }
+    ]
   },
   {
     "id": 8,
@@ -61,7 +225,19 @@
     "img": "../../assets/icons/growth-and-iteration.svg",
     "alt": "Growth & Iteration",
     "link": "growth-iteration",
-    "introduction": "Launching a new site is an important and exciting time for everyone involved; it's satisfying for everyone to see the culmination of his or her hard work. \nWe know how crucial it is to launch a site with everything your team had envisioned. We also understand how stressful it can be to make sure that everything is reaching a minimally viable product marker. \nWe nourish the concept of iteration: slowly (but surely) making small-to-medium-sized changes, both backend, and frontend, to ensure that the site is always optimized. But the concept of an agreed upon launch date doesn't have to mean scrambling internally to include every last detail. You can reveal your new site to your users and throw in the 'extras' over time. This methodology is conducive to CI/CD, the deployment system that the SUMO team uses. By using CI/CD, you don't have to wait for Sprints to be released. You can continuously improve as time passes."
+    "introduction": "Launching a new site is an important and exciting time for everyone involved; it's satisfying for everyone to see the culmination of his or her hard work. \nWe know how crucial it is to launch a site with everything your team had envisioned. We also understand how stressful it can be to make sure that everything is reaching a minimally viable product marker. \nWe nourish the concept of iteration: slowly (but surely) making small-to-medium-sized changes, both backend, and frontend, to ensure that the site is always optimized. But the concept of an agreed upon launch date doesn't have to mean scrambling internally to include every last detail. You can reveal your new site to your users and throw in the 'extras' over time. This methodology is conducive to CI/CD, the deployment system that the SUMO team uses. By using CI/CD, you don't have to wait for Sprints to be released. You can continuously improve as time passes.",
+    "details": [
+      {
+        "id": 1,
+        "title": "Design Iteration",
+        "description": "After your team has done the momentous amount of work it takes to redesign a site, plan for growth, and launch a new look, it's then time to iterate upon the design. Making changes as time goes is essential to building the best user experience possible, especially if your redesign is running on a tight schedule. SUMO Heavy works with our clients to make sure that as their business grows, their site grows with them. "
+      },
+      {
+        "id": 2,
+        "title": "Analyzing Growth",
+        "description": "It's not enough to want to grow - it takes a lot of data, analysis, and planning to make sure your business meets it's goals. SUMO Heavy can help your team plan for measurement and tracking, making it easier to build essential features for your consumers."
+      }
+    ]
   },
   {
     "id": 9,
@@ -69,7 +245,24 @@
     "img": "../../assets/icons/infrastructure-analysis.svg",
     "alt": "Infrastructure Analysis",
     "link": "infrastructure-analysis",
-    "introduction": "As a company grows, so does their investment in technology. Companies are too often focused on growing their current infrastructure rather than analyzing what they truly need. SUMO Heavy works with its clients through detailed technical analysis to provide a full understanding of their current infrastructure spend and capability. Once the current scenario is understood, we're able to explore available options and create a plan to improve the cost structure."
+    "introduction": "As a company grows, so does their investment in technology. Companies are too often focused on growing their current infrastructure rather than analyzing what they truly need. SUMO Heavy works with its clients through detailed technical analysis to provide a full understanding of their current infrastructure spend and capability. Once the current scenario is understood, we're able to explore available options and create a plan to improve the cost structure.",
+    "details": [
+      {
+        "id": 1,
+        "title": "Review Hardware",
+        "description": "Physical hardware is a fixed-cost that cannot scale on-demand. \nIn this scenario, the only way to cost costs is to remove hardware and improve application efficiency. This presents a challenge as contracts for physical hardware are generally long-term. If a client is already in a cloud environment, we can research the options available to them by the cloud vendor, such as spot instances or fleet, reserved instances."
+      },
+      {
+        "id": 2,
+        "title": "Application Review",
+        "description": "In order to be as effective as possible, we need to understand your organization's application ecosystem as a whole. Working with your engineering leads, we look at your development cycle and affected codebases so that we can help plan optimizations in the stack."
+      },
+      {
+        "id": 3,
+        "title": "Report",
+        "description": "After our stakeholder interviews and analysis, we generate a report that details the following: \n• Infrastructural cost reduction \n• Application optimization \n• Migration plan \nThe report should show a cost-effective, scalable infrastructure that will cost less and result in more efficiency per dollar."
+      }
+    ]
   },
   {
     "id": 10,
@@ -77,7 +270,29 @@
     "img": "../../assets/icons/organizational-planning.svg",
     "alt": "Organizational Planning",
     "link": "organizational-planning",
-    "introduction": "It's hard to know where you're headed without clear-cut directions. Let us be your GPS. \nWe know how busy things can get. Several projects going on at once, or your company is going through a significant shift in priority, structure, or goals. One thing is certain: A lack of documentation regarding your team's processes and plans makes it nearly impossible to meet deadlines and stay on budget. \nIn eCommerce, documentation is crucial because of the many complex moving parts to the greater whole (think: vendors, third-party modules, design...the list goes on). SUMO Heavy prides itself on providing succinct, efficiency-driven processes to make your company the most organized and focused it can be."
+    "introduction": "It's hard to know where you're headed without clear-cut directions. Let us be your GPS. \nWe know how busy things can get. Several projects going on at once, or your company is going through a significant shift in priority, structure, or goals. One thing is certain: A lack of documentation regarding your team's processes and plans makes it nearly impossible to meet deadlines and stay on budget. \nIn eCommerce, documentation is crucial because of the many complex moving parts to the greater whole (think: vendors, third-party modules, design...the list goes on). SUMO Heavy prides itself on providing succinct, efficiency-driven processes to make your company the most organized and focused it can be.",
+    "details": [
+      {
+        "id": 1,
+        "title": "Documentation",
+        "description": "You'll never again hear, 'we can't remember why that was built'. We believe in documenting as we go, so your team will always feel empowered to make decisions."
+      },
+      {
+        "id": 2,
+        "title": "Process Management",
+        "description": "For things to run smoothly, we all team members on the same page. Providing sources of truth throughout your organization allows for clear-cut projects and straight-forward expectations for all."
+      },
+      {
+        "id": 3,
+        "title": "Interteam Communication",
+        "description": "Never work in a silo again. By integrating tools like Slack, Zoom, JIRA, Confluence, and more, we make sure that everyone on your team is in the loop."
+      },
+      {
+        "id": 4,
+        "title": "Evaluate Progress",
+        "description": "Let us prove to you how organizational planning has helped. We work with teams to evaluate their progress over time, continually moving towards better processes and meaningful output."
+      }
+    ]
   },
   {
     "id": 11,
@@ -85,7 +300,39 @@
     "img": "../../assets/icons/platform-migration.svg",
     "alt": "Platform Migration",
     "link": "platform-migration",
-    "introduction": "Considering a migration to a new eCommerce platform? Let us guide you. \nWhether you’re thinking about moving to an Enterprise level platform, taking your small business to new heights, or you’ve merely outgrown your current solution, platform migrations can be overwhelming. We’ve handled migrations from Wordpress, Shopify, Magento Community, Magento Enterprise, among others.  SUMO Heavy believes in taking a software-agnostic approach to evaluating eCommerce platforms. \nWe’ll ensure that the platform you move to fits every facet of your business, leaving you room to grow for years to come. Platform migrations are also a vital time to examine every facet of your customer experience. Improving the internal operations of your site can be just as important as improving your customer's experience, and very often it's better for the bottom line. Along the way, we'll also build you a beautiful, well functioning site."
+    "introduction": "Considering a migration to a new eCommerce platform? Let us guide you. \nWhether you’re thinking about moving to an Enterprise level platform, taking your small business to new heights, or you’ve merely outgrown your current solution, platform migrations can be overwhelming. We’ve handled migrations from Wordpress, Shopify, Magento Community, Magento Enterprise, among others.  SUMO Heavy believes in taking a software-agnostic approach to evaluating eCommerce platforms. \nWe’ll ensure that the platform you move to fits every facet of your business, leaving you room to grow for years to come. Platform migrations are also a vital time to examine every facet of your customer experience. Improving the internal operations of your site can be just as important as improving your customer's experience, and very often it's better for the bottom line. Along the way, we'll also build you a beautiful, well functioning site.",
+    "details": [
+      {
+        "id": 1,
+        "title": "Discovery",
+        "description": "Migrations are not a good time for surprises. We’ll explore your current platform and your business practices to make sure you’re making the right decisions."
+      },
+      {
+        "id": 2,
+        "title": "Options",
+        "description": "We take a platform-agnostic approach, ensuring that the platform you choose is right for your business needs. You'll be able to go into migrations better informed with all options made available."
+      },
+      {
+        "id": 3,
+        "title": "Purpose",
+        "description": "Treat your migration as a blank slate that's an opportunity to move your business forward. Porting each feature that exists on your current platform is often unnecessary and counter-productive."
+      },
+      {
+        "id": 4,
+        "title": "Process",
+        "description": "Just because you’ve done something for years, doesn’t mean that it’s the right way to do it. Treat your migration as an opportunity for improvement and iteration. You’ll be glad you did."
+      },
+      {
+        "id": 5,
+        "title": "Planning",
+        "description": "Ensuring that every piece of your platform migration is adequately documented and thoroughly thought out is integral to success."
+      },
+      {
+        "id": 6,
+        "title": "Execution",
+        "description": "We'll create a roadmap together and work closely with your team to make sure that we're on target to meet deadlines."
+      }
+    ]
   },
   {
     "id": 12,
@@ -93,7 +340,14 @@
     "img": "../../assets/icons/process-management.svg",
     "alt": "Process Management",
     "link": "process-management",
-    "introduction": "Having a unified process within your business is crucial for things to run smoothly and efficiently. Often, teams are forced to compete for priority, leaving well-intentioned projects to be left behind or overlooked. \nOnce an established process is agreed upon, you will be able to understand where your teams and projects stand."
+    "introduction": "Having a unified process within your business is crucial for things to run smoothly and efficiently. Often, teams are forced to compete for priority, leaving well-intentioned projects to be left behind or overlooked. \nOnce an established process is agreed upon, you will be able to understand where your teams and projects stand.",
+    "details": [
+      {
+        "id": 1,
+        "title": null,
+        "description": "Having proposed features fully-specified and documented prior to handing off to our development team allows for more accurate estimates, ensuring that everyone can deliver their work and meet deadlines. \nA sound process also enforces transparency to C-level executives, stakeholders, and team members that are actively involved with measuring productivity and value. \nSUMO helps teams come together to communicate what is expected of everyone involved in a project, from Marketing to Engineering. \nOur process management also allows internal teams to understand the impacts of future releases or deployments, so there are no surprises, and scope remains intact. \nOnce you work with a healthy and efficient process, your teams will wonder how they ever lived without it."
+      }
+    ]
   },
   {
     "id": 13,
@@ -101,7 +355,29 @@
     "img": "../../assets/icons/product-management.svg",
     "alt": "Product Management",
     "link": "product-management",
-    "introduction": "We've had the opportunity to work with a wide range of clients over the years, and one theme has remained constant: no matter the size of company or audience, strong product management is critical."
+    "introduction": "We've had the opportunity to work with a wide range of clients over the years, and one theme has remained constant: no matter the size of company or audience, strong product management is critical.",
+    "details": [
+      {
+        "id": 1,
+        "title": "Teamwork is Vital",
+        "description": "SUMO Heavy brings your teams together, making sure scope is set and goals are achieved on time. By providing thorough documentation, consistent process, and open lines of constant communication, we work with you to deliver successful features and plan future greatness."
+      },
+      {
+        "id": 2,
+        "title": "The Roadmap To Success",
+        "description": "SUMO works with your company to build your future success. By providing reliable timelines and roadmaps, we are unmatched in our dedication to complete projects on time, in scope and within budget."
+      },
+      {
+        "id": 3,
+        "title": "Measuring KPI's",
+        "description": "We help your teams set actionable, measurable goals that help analyze productivity, throughput, and value."
+      },
+      {
+        "id": 4,
+        "title": "Stop Working in Silos!",
+        "description": "Cross-team communications get everyone in your company to work on the same page (and stay there)."
+      }
+    ]
   },
   {
     "id": 14,
@@ -109,7 +385,39 @@
     "img": "../../assets/icons/project-management.svg",
     "alt": "Project Management",
     "link": "project-management",
-    "introduction": "Getting things out the door and on time is critical. \nWe believe that a successful eCommerce site is not just about the technology you choose, but also about the collaboration among uniquely-talented individuals who have come together to build something great. \nEfficient eCommerce involves constant transparency, dedication to a universal goal, and the ability to track trends within an ever-changing industry. We dedicate ourselves to understand what is most important to your organization, from specific company practices to what drives your company culture. From there, we help our clients through the detail-oriented processes involved in launching and iterating an exceptional eCommerce experience. Alongside our talented team of developers, SUMO Heavy aims to be your ultimate Project Management resource by optimizing your team approaches documentation, planning, prioritization, and scope-of-work."
+    "introduction": "Getting things out the door and on time is critical. \nWe believe that a successful eCommerce site is not just about the technology you choose, but also about the collaboration among uniquely-talented individuals who have come together to build something great. \nEfficient eCommerce involves constant transparency, dedication to a universal goal, and the ability to track trends within an ever-changing industry. We dedicate ourselves to understand what is most important to your organization, from specific company practices to what drives your company culture. From there, we help our clients through the detail-oriented processes involved in launching and iterating an exceptional eCommerce experience. Alongside our talented team of developers, SUMO Heavy aims to be your ultimate Project Management resource by optimizing your team approaches documentation, planning, prioritization, and scope-of-work.",
+    "details": [
+      {
+        "id": 1,
+        "title": "Planning",
+        "description": "We work with your team to understand the ideal user experience for your consumers, helping to plan innovative features that are ready-to-work."
+      },
+      {
+        "id": 2,
+        "title": "Strategy",
+        "description": "Choices in eCommerce can become overwhelming, especially for growing sites. We're not just here to help you understand your options, we're here to help you decide which is best."
+      },
+      {
+        "id": 3,
+        "title": "Stand-Ups",
+        "description": "Reliable and consistent communication is crucial, which is why we're dedicated to accessibility. Along with weekly stand-ups, we provide the tools you need to stay in touch and stay informed."
+      },
+      {
+        "id": 4,
+        "title": "Responsive (Re)Design",
+        "description": "Redesigns and iterative design used to be hard to manage."
+      },
+      {
+        "id": 5,
+        "title": "Documentation",
+        "description": "'Don't worry, we wrote it all down' becomes music to your ears."
+      },
+      {
+        "id": 6,
+        "title": "Process",
+        "description": "Why only focus on the 'what'? Let us guide the how. We are committed to helping you cultivate your internal processes, empowering your eCommerce team and allowing them to make impactful, informed decisions."
+      }
+    ]
   },
   {
     "id": 15,
@@ -117,7 +425,39 @@
     "img": "../../assets/icons/reporting.svg",
     "alt": "Reporting",
     "link": "reporting",
-    "introduction": "Making informed business decisions with accurate data is at the heart of every successful eCommerce operation. Every business can improve their operations by implementing intelligent, data-driven solutions. \nWe'll help you identify the areas in which your current reporting is lacking, help you understand what questions you should be asking, and make sure your reporting evolves with your business needs. \nMany businesses take action with a lack of proven data to guide their way. Not sure what you should be measuring? We'll work together to identify your KPI's so you know what information you should be gathering. Assuring that your business has accurate reporting will improve sales, increase inventory turn, and most importantly, help ensure that your customers have a great experience each time they visit your store. After all, that's what it's all about."
+    "introduction": "Making informed business decisions with accurate data is at the heart of every successful eCommerce operation. Every business can improve their operations by implementing intelligent, data-driven solutions. \nWe'll help you identify the areas in which your current reporting is lacking, help you understand what questions you should be asking, and make sure your reporting evolves with your business needs. \nMany businesses take action with a lack of proven data to guide their way. Not sure what you should be measuring? We'll work together to identify your KPI's so you know what information you should be gathering. Assuring that your business has accurate reporting will improve sales, increase inventory turn, and most importantly, help ensure that your customers have a great experience each time they visit your store. After all, that's what it's all about.",
+    "details": [
+      {
+        "id": 1,
+        "title": "Analytics",
+        "description": "No matter which analytics platform you're using, we'll improve your reporting to make sure you're able to find the answers that will help move your business forward."
+      },
+      {
+        "id": 2,
+        "title": "User Tracking",
+        "description": "Want to understand how a landing page is performing? Wondering if you're getting traction on a new feature you've implemented? We can help you set up event tracking to get the most information from your user's behavior."
+      },
+      {
+        "id": 3,
+        "title": "Platform Reporting",
+        "description": "All eCommerce software comes with built-in reporting, but many fail to measure critical data points. We'll help you improve your integrated reporting so that you have the answers."
+      },
+      {
+        "id": 4,
+        "title": "BI Integrations",
+        "description": "Has your business outgrown the reporting capabilities of your shop's software? BI tools can help deliver insights with the data that you're already collecting."
+      },
+      {
+        "id": 5,
+        "title": "Sales Reporting",
+        "description": "Need to understand retention? Want to identify which categories are performing the best for your store? We've seen all types of reporting requests and will help you spec out the right report for your questions and get it written."
+      },
+      {
+        "id": 6,
+        "title": "Inventory Reporting",
+        "description": "While sales reporting often gets all the glory, accurate inventory reporting can help you increase profitability, keep products in-stock, and maximize inventory turn."
+      }
+    ]
   },
   {
     "id": 16,
@@ -125,7 +465,34 @@
     "img": "../../assets/icons/rescue.svg",
     "alt": "Rescue",
     "link": "rescue",
-    "introduction": "Need help now? Don't worry, we've got you covered. \nProjects stall. Development teams overestimate their abilities. Your current partner isn't a great fit. \nRest easy, we're here to get you back on track. \neCommerce websites are complex, so it's vital that your business has a trustworthy development partner that supports your business goals. We'll start by taking a deep dive into your current setup by performing a code audit, examining your hosting setup, and making sure your site is safe, secure, and ready for further development. From there we'll work together to formulate a plan that ensures your website can support all of your business goals."
+    "introduction": "Need help now? Don't worry, we've got you covered. \nProjects stall. Development teams overestimate their abilities. Your current partner isn't a great fit. \nRest easy, we're here to get you back on track. \neCommerce websites are complex, so it's vital that your business has a trustworthy development partner that supports your business goals. We'll start by taking a deep dive into your current setup by performing a code audit, examining your hosting setup, and making sure your site is safe, secure, and ready for further development. From there we'll work together to formulate a plan that ensures your website can support all of your business goals.",
+    "details": [
+      {
+        "id": 1,
+        "title": "Security Patches",
+        "description": "Missing security patches are a common issue with rescue situations. \nWe'll analyze what's missing and get you back in business!"
+      },
+      {
+        "id": 2,
+        "title": "Server Security",
+        "description": "Inexperienced developers will leave your server vulnerable to attack, or leave important data publicly accessible. We'll analyze your security from top to bottom and help you lock it down."
+      },
+      {
+        "id": 3,
+        "title": "Stalled Projects",
+        "description": "Sometimes development partners don't work out, leaving your project stalled or incomplete. We're here to help you get back on track and push your project to the finish line."
+      },
+      {
+        "id": 4,
+        "title": "Code Audit",
+        "description": "Have you been experiencing issues with your site and you're not quite sure what's going on? We'll audit your code to make sure it's developed with Best Practices in mind."
+      },
+      {
+        "id": 5,
+        "title": "Partnership",
+        "description": "Once your project is back to where it needs to be, we'll create a roadmap for the future."
+      }
+    ]
   },
   {
     "id": 17,
@@ -133,22 +500,53 @@
     "img": "../../assets/icons/team-augmentation.svg",
     "alt": "Team Augmentation",
     "link": "team-augmentation",
-    "introduction": "Hard-working and committed teams are the life-blood of successful companies. Internal teams with shared goals and visions are essential for making strides in eCommerce. At times your teams may need process guidance, especially as your business continues to grow."
+    "introduction": "Hard-working and committed teams are the life-blood of successful companies. Internal teams with shared goals and visions are essential for making strides in eCommerce. At times your teams may need process guidance, especially as your business continues to grow.",
+    "details": [
+      {
+        "id": 1,
+        "title": null,
+        "description": "SUMO Heavy has the ability to come into your workspace and join your existing teams to help with whatever they may need. Whether it's breaking through communication barriers or implementing Agile processes throughout your organization, we've worked with companies of all sizes, becoming valuable members of product, marketing, content, development, agile, and management teams. We help business and technology goals align, making meaningful business cases for features so that each team's priorities are implemented. We also assist with long-term planning and strategy - it's not enough to deploy a fantastic new feature, you have to track and measure its success along the way (this is especially helpful for iteration and growth). \nWe also help prevent internal bottlenecks and silos. Communication and documentation are crucial to help keep everyone on your team on the same page and working together. By learning the way each team works, we are able to find commonalities that help organizations understand how their work may affect different aspects of the business (while also nurturing each team's specific needs)."
+      }
+    ]
   },
   {
     "id": 18,
-    "title": "",
-    "img": "../../assets/icons/reporting.svg",
-    "alt": "",
-    "link": "",
-    "introduction": ""
-  },
-  {
-    "id": 19,
     "title": "UI / UX",
     "img": "../../assets/icons/ui-ux.svg",
     "alt": "UI / UX",
     "link": "ui-ux",
-    "introduction": "You need a website that's easy for your customers to use. We'll create it. \nIt's common for eCommerce firms to choose a pre-purchased theme, thinking it will save them time or money, instead of working with a business that understands their real needs. Our collaborative design process allows you to express your ideas and meet your requirements. We'll take your concepts and execute a clean, modern, and user-friendly design. We'll use best practices to create a theme that is easy for your customers to use, easy for your team to use. \nUser-testing is a critical step in launching a site. Our thorough QA processes will ensure that your site is easy to use and put you on the path to future growth."
+    "introduction": "You need a website that's easy for your customers to use. We'll create it. \nIt's common for eCommerce firms to choose a pre-purchased theme, thinking it will save them time or money, instead of working with a business that understands their real needs. Our collaborative design process allows you to express your ideas and meet your requirements. We'll take your concepts and execute a clean, modern, and user-friendly design. We'll use best practices to create a theme that is easy for your customers to use, easy for your team to use. \nUser-testing is a critical step in launching a site. Our thorough QA processes will ensure that your site is easy to use and put you on the path to future growth.",
+    "details": [
+      {
+        "id": 1,
+        "title": "Vision",
+        "description": "Every business has a vision of what their site means to their users. We'll make sure your ideas make it to the masses."
+      },
+      {
+        "id": 2,
+        "title": "Design Trends",
+        "description": "No one wants a website that looks it was designed in 1998. We'll design a site that won't get stale, focusing on true user experience without fluff and decoration."
+      },
+      {
+        "id": 3,
+        "title": "Results Oriented",
+        "description": "We'll work with you to make sure your site is user-intuitive and increase conversion rates."
+      },
+      {
+        "id": 4,
+        "title": "Intuitive",
+        "description": "The most beautiful site in the world is useless if it's not easy for your customers to use."
+      },
+      {
+        "id": 5,
+        "title": "Discovery",
+        "description": "We'll do a deep-dive on your business so we get a grasp on the industry and what's important to your customers."
+      },
+      {
+        "id": 6,
+        "title": "Iteration",
+        "description": "No design is permanent. We'll make sure your design is always up to date and help you make adjustments as they arise."
+      }
+    ]
   }
 ]
