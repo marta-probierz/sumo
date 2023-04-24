@@ -1,18 +1,54 @@
-<div class="container capabilities p-5">
-  <div class="row header g-3">
-    <div class="col-12 col-md-6">
-      <h1 class="page-heading m-2">
-        Stunningly<br />
-        Capable
-      </h1>
+<div class="capabilities">
+  <img class="section-img" src="../../assets/sumo_icon.svg" alt="Sumo Logo" />
+  <div class="container p-2 p-md-5">
+    <div class="row header g-3">
+      <div class="col-12 col-md-6">
+        <h1 class="page-heading m-3">
+          Stunningly<br />
+          Capable
+        </h1>
+      </div>
+      <div class="col-12 col-md-6">
+        <p class="p-4 p-md-5">
+          Each client comes to us with their own unique set of challenges. From
+          Agile Planning to Platform Migration to the dreaded Rescue – don't
+          worry, we've got your back. But don't take our word for it – check the
+          list below for just a small sample of what SUMO Heavy can do to help.
+        </p>
+      </div>
     </div>
-    <div class="col-12 col-md-6">
-      <p class="p-5">
-        Each client comes to us with their own unique set of challenges. From
-        Agile Planning to Platform Migration to the dreaded Rescue – don't
-        worry, we've got your back. But don't take our word for it – check the
-        list below for just a small sample of what SUMO Heavy can do to help.
-      </p>
+  </div>
+  <div class="container-fluid bg-light">
+    <div class="container">
+      <div class="row g-3 p-2 p-md-5 info">
+        <div class="col-12 col-md-7">
+          <div *ngFor="let capability of capabilitiesData" class="mb-5">
+            <div class="d-flex mb-4">
+              <img [src]="capability.img" [alt]="capability.alt" class="icon" />
+              <h4 [id]="[capability.link]" class="align-self-center title">
+                {{ capability.title }}
+              </h4>
+            </div>
+            <p style="white-space: break-spaces" class="introduction">
+              {{ capability.introduction }}
+            </p>
+            <a [routerLink]="[capability.link]">Read more</a>
+          </div>
+        </div>
+        <div class="col-5 navigation">
+          <h4 class="text-center">Our Full Listing</h4>
+          <div class="container">
+            <div class="row">
+              <div *ngFor="let capability of capabilitiesData" class="col-6">
+                <a href="capabilities#{{ capability.link }}"
+                  ><p>{{ capability.title }}</p></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <app-to-top-arrow></app-to-top-arrow>
     </div>
   </div>
 </div>
