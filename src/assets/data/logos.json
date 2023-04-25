@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "src": "../../assets/logo/Sourpuss.png",
+    "alt": "Sourpuss",
+    "class": "img-fluid sourpuss"
+  },
+  {
+    "id": 2,
+    "src": "../../assets/logo/Treehouse.png",
+    "alt": "Treehouse",
+    "class": "img-fluid treehouse"
+  },
+  {
+    "id": 3,
+    "src": "../../assets/logo/Booze-Carriage.png",
+    "alt": "Booze Carriage",
+    "class": "img-fluid booze"
+  },
+  {
+    "id": 4,
+    "src": "../../assets/logo/Overtone.png",
+    "alt": "Overtone",
+    "class": "img-fluid overtone"
+  },
+  {
+    "id": 5,
+    "src": "../../assets/logo/Crafters-box.png",
+    "alt": "The Crafters Box",
+    "class": "img-fluid crafters-box"
+  },
+  {
+    "id": 6,
+    "src": "../../assets/logo/Tyr.png",
+    "alt": "Tyr",
+    "class": "img-fluid tyr"
+  },
+  {
+    "id": 7,
+    "src": "../../assets/logo/Roku.png",
+    "alt": "Roku",
+    "class": "img-fluid roku"
+  },
+  {
+    "id": 8,
+    "src": "../../assets/logo/Pitney-Bowes.png",
+    "alt": "Pitney Bowes",
+    "class": "img-fluid pitney"
+  }
+]

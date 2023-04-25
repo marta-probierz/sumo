@@ -4,10 +4,10 @@ import { HttpClient } from '@angular/common/http';
 @Injectable({
   providedIn: 'root',
 })
-export class HomeCardsService {
+export class LogosService {
   constructor(private httpService: HttpClient) {}
 
-  getHomeCards() {
-    return this.httpService.get('../../assets/data/home-cards.json');
+  getLogos() {
+    return this.httpService.get('../../assets/data/logos.json');
   }
 }

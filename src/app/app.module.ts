@@ -20,7 +20,6 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 import { HomeComponent } from './home/home.component';
 import { IntroHeaderComponent } from './home/intro-header/intro-header.component';
 import { ToTopArrowComponent } from './shared/to-top-arrow/to-top-arrow.component';
-import { HomeCardsService } from './services/home-cards.service';
 import { ContactComponent } from './contact/contact.component';
 import { OurWorkComponent } from './our-work/our-work.component';
 import { FormComponent } from './shared/form/form.component';
@@ -58,7 +57,7 @@ import { CapabilitiesComponent } from './capabilities/capabilities.component';
     MatDividerModule,
     CardModule,
   ],
-  providers: [HomeCardsService],
+  providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

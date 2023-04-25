@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
-import { HomeCardsService } from '../services/home-cards.service';
+import { LogosService } from '../services/logos.service';
+import { BlogService } from '../services/blog.service';
 
 @Component({
   selector: 'app-home',
@@ -8,13 +9,21 @@ import { HomeCardsService } from '../services/home-cards.service';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  homeCardsData: any;
+  logos: any;
+  blogPosts: any[] = [];
 
-  constructor(private homeCardsService: HomeCardsService) {}
+  constructor(
+    private logosService: LogosService,
+    private blogService: BlogService
+  ) {}
 
   ngOnInit(): void {
-    this.homeCardsService.getHomeCards().subscribe((res) => {
-      this.homeCardsData = res;
+    this.logosService.getLogos().subscribe((res) => {
+      this.logos = res;
+    });
+
+    this.blogService.getBlogPosts().subscribe((res) => {
+      this.blogPosts = res;
     });
   }
 }
