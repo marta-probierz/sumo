@@ -123,88 +123,37 @@
   </div>
   <div class="container p-4">
     <div class="row logo-grid">
-      <div class="col-6 col-md-3">
-        <img
-          class="img-fluid sourpuss"
-          src="../../assets/logo/Sourpuss.png"
-          alt="Sourpuss"
-        />
-      </div>
-      <div class="col-6 col-md-3">
-        <img
-          class="img-fluid treehouse"
-          src="../../assets/logo/Treehouse.png"
-          alt="Treehouse"
-        />
-      </div>
-      <div class="col-6 col-md-3">
-        <img
-          class="img-fluid booze"
-          src="../../assets/logo/Booze-Carriage.png"
-          alt="Booze Carriage"
-        />
-      </div>
-      <div class="col-6 col-md-3">
-        <img
-          class="img-fluid overtone"
-          src="../../assets/logo/Overtone.png"
-          alt="Overtone"
-        />
-      </div>
-      <div class="w-100"></div>
-      <div class="col-6 col-md-3">
-        <img
-          class="img-fluid crafters-box"
-          src="../../assets/logo/Crafters-box.png"
-          alt="The Crafters Box"
-        />
-      </div>
-      <div class="col-6 col-md-3">
-        <img class="img-fluid tyr" src="../../assets/logo/Tyr.png" alt="Tyr" />
-      </div>
-      <div class="col-6 col-md-3">
-        <img
-          class="img-fluid roku"
-          src="../../assets/logo/Roku.png"
-          alt="Roku"
-        />
-      </div>
-      <div class="col-6 col-md-3">
-        <img
-          class="img-fluid pitney"
-          src="../../assets/logo/Pitney-Bowes.png"
-          alt="Pitney Bowes"
-        />
+      <div *ngFor="let logo of logos" class="col-6 col-md-3">
+        <img [class]="logo.class" [src]="logo.src" [alt]="logo.alt" />
       </div>
     </div>
   </div>
-</div>
-<div class="fourth-section">
-  <div class="container">
-    <h1>We are authority.</h1>
-    <p>
-      In our ten years of business, we’ve seen a lot. We’ve seen trends come and
-      go, platforms and processes evolve. But one thing that doesn’t change is
-      our love for eCommerce.
-    </p>
-    <div class="row mt-4 content-grid">
-      <div *ngFor="let cardData of homeCardsData" class="col-12 col-lg-4">
-        <div class="card" [routerLink]="cardData.link">
-          <img
-            class="card-img-top"
-            [src]="cardData.image"
-            [alt]="cardData.alt"
-          />
-          <div class="card-body">
-            <p>{{ cardData.date | date : "MMM y" }}</p>
-            <a>{{ cardData.name }}</a>
+  <div class="fourth-section">
+    <div class="container">
+      <h1>We are authority.</h1>
+      <p>
+        In our ten years of business, we’ve seen a lot. We’ve seen trends come
+        and go, platforms and processes evolve. But one thing that doesn’t
+        change is our love for eCommerce.
+      </p>
+      <div class="row mt-4 content-grid">
+        <div
+          *ngFor="let post of blogPosts | slice : 0 : 3"
+          class="col-12 col-lg-4"
+        >
+          <div class="card" [routerLink]="post.link">
+            <img class="card-img-top" [src]="post.image" [alt]="post.alt" />
+            <div class="card-body">
+              <p>{{ post.date | date : "MMM y" }}</p>
+              <a>{{ post.name }}</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="mt-5 text-center">
-      <button class="home-button">See all our content</button>
+      <div class="mt-5 text-center">
+        <button class="home-button">See all our content</button>
+      </div>
     </div>
   </div>
+  <app-form></app-form>
 </div>
-<app-form></app-form>
