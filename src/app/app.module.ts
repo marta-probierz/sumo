@@ -10,6 +10,7 @@ import { ToastModule } from 'primeng/toast';
 import { MatSelectModule } from '@angular/material/select';
 import { MatDividerModule } from '@angular/material/divider';
 import { CardModule } from 'primeng/card';
+import { CarouselModule } from 'primeng/carousel';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -26,6 +27,7 @@ import { FormComponent } from './shared/form/form.component';
 import { DetailsComponent } from './our-work/details/details.component';
 import { CapabilitiesComponent } from './capabilities/capabilities.component';
 import { CapabilitiesDetailComponent } from './capabilities/capabilities-detail/capabilities-detail.component';
+import { InsightsComponent } from './insights/insights.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,8 @@ import { CapabilitiesDetailComponent } from './capabilities/capabilities-detail/
     FormComponent,
     DetailsComponent,
     CapabilitiesComponent,
-    CapabilitiesDetailComponent
+    CapabilitiesDetailComponent,
+    InsightsComponent,
   ],
   imports: [
     BrowserModule,
@@ -58,6 +61,7 @@ import { CapabilitiesDetailComponent } from './capabilities/capabilities-detail/
     MatSelectModule,
     MatDividerModule,
     CardModule,
+    CarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

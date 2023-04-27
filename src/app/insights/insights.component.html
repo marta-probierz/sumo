@@ -1,0 +1,27 @@
+<div class="intro d-flex flex-column justify-content-center align-items-center">
+    <h1 class="text-center">We keep up on trends</h1>
+    <h2 class="text-center">so you don't have to.</h2>
+</div>
+<div class="container content mt-5 mb-2">
+    <div class="row">
+      <div class="col-12">
+        <h2>Our Blog</h2>
+        <p>Thoughts and opinions from our team on the eCommerce and Tech landscape. Read on, you just might learn something!</p>
+      </div>
+      <div class="card">
+        <p-carousel [value]="blogPosts" [numVisible]="3" [numScroll]="3" [circular]="false" [responsiveOptions]="responsiveOptions">
+            <ng-template let-post pTemplate="item">
+                <div class=" m-2 text-center py-5 px-3">
+                    <div class="card" [routerLink]="post.link">
+                        <img class="card-img-top" [src]="post.image" [alt]="post.alt" />
+                        <div class="card-body">
+                            <p>{{ post.date | date : "MMM y" }}</p>
+                            <a>{{ post.name }}</a>
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+        </p-carousel>
+    </div>
+    </div>
+</div>

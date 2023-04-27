@@ -3,24 +3,81 @@
     "id": 1,
     "image": "../../assets/home/shopify.jpeg",
     "alt": "Shopify",
-    "date": "03-01-2023",
+    "date": "03-26-2023",
     "name": "The Real-World Journey of Moving to Shopify Online Store 2.0",
-    "link": "/"
+    "link": "/",
+    "author": "John Suder"
   },
   {
     "id": 2,
     "image": "../../assets/home/grocery.jpeg",
     "alt": "Grocery",
-    "date": "03-01-2023",
+    "date": "03-21-2023",
     "name": "Grocery eCommerce Habits are Shifting for Consumers",
-    "link": "/"
+    "link": "/",
+    "author": "Brittany Blackman"
   },
   {
     "id": 3,
     "image": "../../assets/home/data-warehousing.jpeg",
     "alt": "Data Warehousing",
-    "date": "03-01-2023",
+    "date": "03-18-2023",
     "name": "How Data Warehouses Can Save Your Company Money",
-    "link": "/"
+    "link": "/",
+    "author": "John Suder"
+  },
+  {
+    "id": 4,
+    "image": "",
+    "alt": "",
+    "date": "01-14-2023",
+    "name": "Drive More Traffic, Convert More Customers: 20 Content Marketing Tips",
+    "link": "/",
+    "author": "John Suder"
+  },
+  {
+    "id": 5,
+    "image": "",
+    "alt": "",
+    "date": "12-17-2022",
+    "name": "How SUMO Heavy Handles Your Project Discovery",
+    "link": "/",
+    "author": "John Suder"
+  },
+  {
+    "id": 6,
+    "image": "",
+    "alt": "",
+    "date": "12-05-2022",
+    "name": "Amazon Tests Return Fees, The Era of Free Returns May Be Ending",
+    "link": "/",
+    "author": "John Suder"
+  },
+  {
+    "id": 7,
+    "image": "",
+    "alt": "",
+    "date": "11-26-2022",
+    "name": "Temu is the Now the Most Downloaded Shopping App",
+    "link": "/",
+    "author": "John Suder"
+  },
+  {
+    "id": 8,
+    "image": "",
+    "alt": "",
+    "date": "11-07-2022",
+    "name": "Do Robots Actually Enhance the Shopping Experience?",
+    "link": "/",
+    "author": "Brittany Blackman"
+  },
+  {
+    "id": 9,
+    "image": "",
+    "alt": "",
+    "date": "10-15-2022",
+    "name": "Walmart Lets Customers Shop Via Text with 'Text to Shop'",
+    "link": "/",
+    "author": "John Suder"
   }
 ]
