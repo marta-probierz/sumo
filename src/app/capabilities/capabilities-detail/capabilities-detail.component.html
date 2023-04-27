@@ -1,0 +1,23 @@
+<div class="details">
+    <div class="intro">
+      <img src="../../assets/capabilities/SUMO.jpg" alt="Sumo Image" />
+      <div class="text-img">
+        <h5>CAPABILITIES</h5>
+        <h1>{{ capabilitiesData?.title }}</h1>
+      </div>
+    </div>
+</div>
+<div class="container mt-5 mb-2">
+    <div class="row">
+      <div class="col-12">
+        <p style="white-space: break-spaces">{{ capabilitiesData?.introduction }}</p>
+        <div
+        *ngFor="let capability of capabilitiesData?.details"
+        style="white-space: break-spaces"
+      >
+        <h5>{{ capability.title }}</h5>
+        <p>{{ capability.description }}</p>
+      </div>
+      </div>
+    </div>
+</div>

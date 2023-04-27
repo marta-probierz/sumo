@@ -25,6 +25,7 @@ import { OurWorkComponent } from './our-work/our-work.component';
 import { FormComponent } from './shared/form/form.component';
 import { DetailsComponent } from './our-work/details/details.component';
 import { CapabilitiesComponent } from './capabilities/capabilities.component';
+import { CapabilitiesDetailComponent } from './capabilities/capabilities-detail/capabilities-detail.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,7 @@ import { CapabilitiesComponent } from './capabilities/capabilities.component';
     FormComponent,
     DetailsComponent,
     CapabilitiesComponent,
+    CapabilitiesDetailComponent
   ],
   imports: [
     BrowserModule,
