@@ -2,7 +2,7 @@
   <h1>SUMO</h1>
 </div>
 
-### [WEJDŹ NA STRONĘ](https://sumo-copy.netlify.app/)
+### [WEJDŹ NA STRONĘ](https://sumo-copy.vercel.app/)
 
 #### Autorka:
 - [Marta Probierz](https://github.com/marta-probierz)
