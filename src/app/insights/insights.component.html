@@ -4,7 +4,7 @@
 </div>
 <div class="container content mt-5 mb-2">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 mb-4">
         <h2>Our Blog</h2>
         <p>Thoughts and opinions from our team on the eCommerce and Tech landscape. Read on, you just might learn something!</p>
       </div>
@@ -13,7 +13,7 @@
             <ng-template let-post pTemplate="item">
                 <div class=" m-2 text-center py-5 px-3">
                     <div class="card" [routerLink]="post.link">
-                        <img class="card-img-top" [src]="post.image" [alt]="post.alt" />
+                        <img class="card-img-top" [src]="post.image" [alt]="post.alt" style="min-height: 230px;"/>
                         <div class="card-body">
                             <p>{{ post.date | date : "MMM y" }}</p>
                             <a>{{ post.name }}</a>
