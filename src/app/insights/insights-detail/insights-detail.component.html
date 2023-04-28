@@ -1,0 +1,26 @@
+<div class="details">
+    <div class="intro">
+      <img [src]="blogPosts?.image" [alt]="blogPosts?.alt" />
+      <div class="text-img">
+        <h5>BLOG</h5>
+        <h1>{{ blogPosts?.name }}</h1>
+        <h6>by <span>{{ blogPosts?.author }}</span> on {{ blogPosts?.date  | date: 'mediumDate' }}</h6>
+      </div>
+    </div>
+</div>
+<div class="container mt-5 mb-2">
+    <div class="row">
+      <div class="col-12">
+        <div
+        *ngFor="let post of blogPosts?.details"
+        style="white-space: break-spaces"
+      >
+        <h5>{{ post.title }}</h5>
+        <p>{{ post.paragraph }}</p>
+      </div>
+          <em>{{ blogPosts?.em }}</em>
+      </div>
+    </div>
+</div>  
+<app-form></app-form>
+<app-to-top-arrow></app-to-top-arrow>

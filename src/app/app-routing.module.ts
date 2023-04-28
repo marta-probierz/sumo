@@ -10,6 +10,7 @@ import { DetailsComponent } from './our-work/details/details.component';
 import { CapabilitiesComponent } from './capabilities/capabilities.component';
 import { CapabilitiesDetailComponent } from './capabilities/capabilities-detail/capabilities-detail.component';
 import { InsightsComponent } from './insights/insights.component';
+import { InsightsDetailComponent } from './insights/insights-detail/insights-detail.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'capabilities', component: CapabilitiesComponent },
   { path: 'capabilities/:link', component: CapabilitiesDetailComponent },
   { path: 'insights', component: InsightsComponent },
+  { path: 'insights/:link', component: InsightsDetailComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'terms', component: TermsComponent },
   { path: 'privacy-policy', component: PrivacyPolicyComponent },

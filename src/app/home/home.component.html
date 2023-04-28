@@ -141,7 +141,7 @@
           *ngFor="let post of blogPosts | slice : 0 : 3"
           class="col-12 col-lg-4"
         >
-          <div class="card" [routerLink]="post.link">
+          <div class="card" [routerLink]="['/insights', post.link]">
             <img class="card-img-top" [src]="post.image" [alt]="post.alt" />
             <div class="card-body">
               <p>{{ post.date | date : "MMM y" }}</p>
