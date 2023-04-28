@@ -1,27 +1,32 @@
-# Sumo
+<div align="center">
+  <h1>SUMO</h1>
+</div>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
+### [WEJDŹ NA STRONĘ](https://sumo-copy.netlify.app/)
 
-## Development server
+#### Autorka:
+- [Marta Probierz](https://github.com/marta-probierz)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Cel projektu
+Celem projektu było dostarczenie aplikacji „SUMO”, która jest wolną kopią oficjalnej strony firmy SumoHeavy. Aplikacja powstała, w technologii Angular.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologie użyte w projekcie:
+1. Angular 14
+2. Bootstrap
+3. NG Bootstrap
+4. PrimeNG
+5. RxJS
 
-## Build
+## Instalacja
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+#### Uruchomienie projektu:
 
-## Running unit tests
+Aby uruchomić aplikację na lokalnej maszynie, wykonaj następujące kroki:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Sklonuj repozytorium.
+2. Otwórz je w ulubionym edytorze.
+3. Zainstaluj zależności za pomocą komendy: npm i.
+4. Wystartuj aplikację za pomocą komendy: npm run start.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Aplikacja będzie dostępna pod adresem: http://localhost:4200/
