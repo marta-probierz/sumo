@@ -5,8 +5,31 @@
     "alt": "Shopify",
     "date": "03-26-2023",
     "name": "The Real-World Journey of Moving to Shopify Online Store 2.0",
-    "link": "/",
-    "author": "John Suder"
+    "link": "the-real-world-journey-of-moving-to-shopify-online-store-2-0",
+    "author": "John Suder",
+    "details": [
+      {
+        "id": 1,
+        "title": null,
+        "paragraph": "Shopify has been at the forefront of eCommerce for years and is constantly improving. With the new version 2.0 of Shops, the company takes its top-notch service to the next level."
+      },
+      {
+        "id": 2,
+        "title": "Shopify 2.0 is Loaded with New Features",
+        "paragraph": "Shopify 2.0 offers a more modern, streamlined interface that makes it easy to customize your store to your needs. Shopify 2.0 includes all the features you need to create a fantastic, high-performing store \nThere are also new tools for managing customer relationships and building loyalty. With customized loyalty programs, automated email campaigns, and more, you can quickly build an engaged customer base and stay on top of the competition."
+      },
+      {
+        "id": 3,
+        "title": "Payments Made Easy",
+        "paragraph": "Integration is made easier with popular payment processing companies like PayPal and Stripe. \nThis means you don’t have to worry about setting up a payment gateway, and your customers can quickly complete their purchases with a few clicks."
+      },
+      {
+        "id": 4,
+        "title": "Our Recent Client Experience with Moving to Shopify 2.0",
+        "paragraph": "We have a client for whom we built extensive sections for their theme. We integrated the new design with the theme’s grid; there are sections for blog posts, layouts with insertable cards, and heroes. Even more importantly, some sections can be inserted for various marketing integrations. This was a great solution, but it had limitations that are being solved by Online Store 2.0. \nOur client is moving to this new architecture for a few reasons. \nToday, we run into limitations if we want to manage sections across product or collection pages. This is solved by “Sections on every page.” Another reason is that new features are available to apps requiring the new theme architecture, such as “App blocks.” This client also makes heavy use of metafields which now have a more robust typing. \nOn the development side, many new niceties help smooth out the development process, which has been historically finicky. New CLI features aid in theme deployment and provides a more modern process for serving development themes. Adding theme-check will allow us to improve our CI/CD process even further. \nThe overall improvements in feature set, performance, and development process will be well worth the effort to help this client along their journey."
+      }
+    ],
+    "em": "Photo by Roberto Cortese on Unsplash"
   },
   {
     "id": 2,
@@ -14,8 +37,16 @@
     "alt": "Grocery",
     "date": "03-21-2023",
     "name": "Grocery eCommerce Habits are Shifting for Consumers",
-    "link": "/",
-    "author": "Brittany Blackman"
+    "link": "grocery-ecommerce-habits-are-shifting-for-consumers",
+    "author": "Brittany Blackman",
+    "details": [
+      {
+        "id": 1,
+        "title": null,
+        "paragraph": "The pandemic radically changed the way consumers purchase groceries. For many, online grocery shopping and delivery was the logical thing to do amidst concerns of in-person contact. According to the latest monthly eCommerce report from Brick Meets Click and Mercatus, grocery eCommerce reached $8.8 billion in February, up 1.5% compared to last year. \nAs society ventures back into physical grocery shopping, a noticeable shift in consumer behavior has occurred. The results from the Brick Meets Click and Mercatus study hint that shopper behavior is shifting– but specifically among the most loyal users of grocery eCommerce platforms. \nThe base of monthly active users describes the most engaged group of online shoppers. This sector saw an increase of more than 5% year-over-year in February. The same group saw its number of completed orders fall almost 9% year-over-year to its lowest level since March 2020. \nDavid Bishop, partner at Brick Meets Click, said in the announcement, “The expanding user base for online grocery illustrates its growing reach, but the changing role it plays is evident from contractions in the use of multiple receiving methods and average order frequency, which mostly muted the gains in reach.” \nThe report also found that ship-to-home sales were the only grocery delivery channel that had an average order value increase for the month that surpassed  the rate of grocery inflation. Ship-to-home also reversed its months-long year-over-year sales decline, boasting around a 14% increase. \nThe popular grocery pickup channel saw sales increase by around 2.5% year-over-year, while delivery contracted almost 9.4%. But for monthly active users, pickup has steadily recorded gains while delivery has not. \nIt’s also becoming more evident that larger mass retailers are continuing to  pressure grocery eCommerce as they bring in more customers year-over-year. The monthly active user base for mass retailers grew over 20% in comparison to February 2022, while the the trusty active user base for grocers constricted to the “mid-to-upper single digits” for at least the second month in a row. \nU.S. online grocery sales are projected to reach $36.3 billion in revenue this year, up from $20.1 in 2019, before the pandemic, according to market research analyst IBISWorld."
+      }
+    ],
+    "em": "Photo by Charles Gao on Unsplash"
   },
   {
     "id": 3,
@@ -23,8 +54,51 @@
     "alt": "Data Warehousing",
     "date": "03-18-2023",
     "name": "How Data Warehouses Can Save Your Company Money",
-    "link": "/",
-    "author": "John Suder"
+    "link": "how-data-warehouses-can-save-your-company-money",
+    "author": "John Suder",
+    "details": [
+      {
+        "id": 1,
+        "title": "What Exactly Is a Data Warehouse?",
+        "paragraph": "In data warehouses, large data sets are stored and analyzed. It is intended to provide a single, consistent view of data from multiple sources. Drawing on multiple sources, data warehouses use innovative transformations to collect and organize data into cohesive insights ready for analysis, helping decision-makers make informed choices."
+      },
+      {
+        "id": 2,
+        "title": "Data Warehouses Examples",
+        "paragraph": "Enterprises use data warehouses to manage and process the massive amounts of data they generate. The most well-known products include Oracle Data Warehouse, SAP HANA, Microsoft SQL Server, IBM DB2, and Teradata. Each offers unique features, such as support for user-defined objects for query optimization methods, database storage capacities, and sophisticated features like data mining analysis and integration."
+      },
+      {
+        "id": 3,
+        "title": "Data Warehouses Improve Business Reporting",
+        "paragraph": "A data warehouse can help improve business reporting by providing a single source of truth for all data. This allows for more accurate and consistent reporting across the organization. A data warehouse also provides a platform for data analysis, providing deeper insights into business performance. \nData warehouses simplify the report generation process by providing organizations with a single data repository that can be used to quickly and easily generate timely, accurate reports and provide a 'single version of truth.'"
+      },
+      {
+        "id": 4,
+        "title": "How Can Data Warehouses Save My Company Money?",
+        "paragraph": "Business data is consolidated and integrated using data warehouses, which allow for the preservation and storage of information from many sources. This can save expenses in various ways, including the need for less human labor and lower data entry costs. \nData warehouses also increase the accuracy of reports and cut down on data duplication. By ensuring a single version of data, companies can save money by ensuring that decisions based on flawed data are avoided. They can also save on redesigning reports due to incorrect data. \nFinally, companies can utilize the built-in analytics capabilities of data warehouses to identify cost savings and drive strategic decision-making. By having access to accurate and consolidated data, companies can make more informed decisions, reduce costs, and optimize business processes. \nYour business will save time and money through data warehousing, allowing all users to make data-driven decisions more efficiently."
+      },
+      {
+        "id": 5,
+        "title": "Other Examples of Data Warehouse Cost Savings",
+        "paragraph": "1. Reduced Data Storage Costs: Data warehouses can reduce the amount of data storage needed by consolidating data from multiple sources into one central repository. \n2. Improved Data Quality: By providing all data in one place, data warehouses can help improve data quality. \n3. Increased Efficiency: Data warehouses can increase efficiency by providing a single source of data for reporting and analysis. \n4. Reduced Maintenance Costs: Data warehouses can reduce the time and money spent on maintaining multiple data sources. \n5. Improved Decision-Making: Data warehouses can provide a comprehensive view of data that can help improve decision-making. \n6. Reduced Time to Market: Data warehouses can help reduce the time it takes to develop new products and services. \n7. Improved Customer Service: Data warehouses allow customer service representatives to access a single source of information."
+      },
+      {
+        "id": 6,
+        "title": "Invest in the Correct Tools for Success",
+        "paragraph": "Using the wrong tool is like using a sledgehammer on a nail to hang a picture on your wall. Even if something is expensive or widely used, there are better fits for your organization. \nWhile choosing a data warehouse system, be sure to take security and scalability into account. \nMost data warehouses are Online Analytical Processing (OLAP) databases built for lots and lots of columns and are not intended to be used as normal backends for websites. Most databases we'll see in regular use are Online Transactional Processing (OLTP) databases, which are built for row-oriented data, relationships, indexing, and many other things focused on performance. They both have their cases, but you generally will hit the benefits of OLAP databases once you grow a bit."
+      },
+      {
+        "id": 7,
+        "title": "Not All Data Warehouses are the Same",
+        "paragraph": "This story is about using the right tool for the job, an essential part of our work at SUMO Heavy. \nSnowflake is one of the largest data warehouse products in the world, which comes at a price. The billing model is complex, and they target enterprise companies. They compete in the cloud data industry with products such as Amazon RedShift, FireBolt, and Vertica, among others. One issue with these large data products is that many companies often buy into them without knowing their true use cases, misuse them, or need help understanding how to build for them with predictable costs. \nTwo years ago, our team was brought into a project at one of our clients where the client’s team insisted on using Snowflake for the backend of a consumer-facing web application for custom reporting. This scenario was against our recommendation, as the issue here is that it is being treated as an Online Transactional Processing (OLTP) database, which needs to be addressed. Snowflake's engine is built for Online Analytical Processing (OLAP) based database structures and queries. \nFor this illustration, we won't dive into the technical details, but OLTP is what you'd think of when your typical relational database systems come to mind, such as MySQL, PostgreSQL, etc. They are great for querying normalized data quickly to drive web applications. On the other hand, OLAP is traditionally used for analysis across millions or billions of rows of data, where speed is critical. \nIf you'd like to read more, Snowflake has a great page on this topic. Here's a quote on intended users: \nOLTP systems are customer-facing and designed for use by frontline workers such as store clerks and hotel reservation specialists, as well as online shoppers. OLAP systems are business-facing and are used by data scientists, analysts, and business users such as team leads or executives. These decision-makers access data using analytics dashboards. \nUsing Snowflake as the backend for the web applications had two significant negative impacts: \n• Cost: The cost could have been more predictable due to the complexity of Snowflake's billing mechanism. Billing is calculated using storage, compute, and cloud service credits. Every time you run a query, some aspect of billing occurs. This is why using the database as the backend for a web application can be a bad idea because every filter, page load, etc., can affect cost. \n• Performance: OLAP databases utilize indexes and relationships differently than OLTP databases because real-time performance is not their most important aspect. With an OLAP database, you could request a report; depending on its complexity, that query could take hours to run. \nAs a result, a new data architect is working on the projects and taking a new approach by implementing APIs to sit in front of Snowflake for our apps to integrate with and moving the data into PostgreSQL, where we can continue to use the same APIs. This will be more than enough for the millions of rows being utilized. \nSomething to keep in mind is that all data warehouse companies will tell you that you need them. Before buying into a platform, it's imperative that, as an organization, you: \n• Perform a detailed requirements analysis with all your teams that include data architects, data and backend engineers, and product managers \n• Evaluate multiple platforms \n• Work with the cloud vendors to run real-world evaluations on a subset of your data."
+      },
+      {
+        "id": 8,
+        "title": "Conclusion",
+        "paragraph": "Data warehousing is a complex, large-scale operation that affects every part of your business. Starting with something powerful but more vendor agnostic such as PostgreSQL, your organization can take its time moving to a larger platform with more vendor-lock. If properly architected with well-built data pipelines pulling from source data, the new transition from ETL to ELT gives much more flexibility when migrating to a new platform. \nWe have experience with both Redshift and Snowflake, and both are wonderful tools when the fit is right. The most crucial aspect of your data warehousing journey is planning carefully, including everyone in your organization with data needs, and evaluating before purchasing."
+      }
+    ],
+    "em": "Photo by Joshua Sortino on Unsplash"
   },
   {
     "id": 4,
@@ -32,8 +106,126 @@
     "alt": "drive-more-traffic",
     "date": "01-14-2023",
     "name": "Drive More Traffic, Convert More Customers: 20 Content Marketing Tips",
-    "link": "/",
-    "author": "John Suder"
+    "link": "drive-more-traffic-convert-more-customers-20-content-marketing-tips-for-ecommerce-growth",
+    "author": "John Suder",
+    "details": [
+      {
+        "id": 1,
+        "title": null,
+        "paragraph": "Content marketing is an effective way to capture a user’s attention and convert them into customers."
+      },
+      {
+        "id": 2,
+        "title": "Benefits of Content Marketing:",
+        "paragraph": " \n• Helps to build brand awareness \n• Establishes brand authority \n• Increases web traffic \n• Generates leads and conversions \n• Builds relationships with customers \n• Enhances SEO \n• Cost-effective compared to other forms of marketing \nContent marketing is a crucial element of any business growth strategy. By providing valuable and informative content, eCommerce businesses can attract and retain customers while boosting their overall online presence. \nThe key is to create content that evokes emotions and has the potential to go viral. Keep these tactics in mind if you want to improve your eCommerce content marketing performance:"
+      },
+      {
+        "id": 3,
+        "title": "1. Leverage user-generated content",
+        "paragraph": "Encourage customers to share their experiences with your products or brand on social media, and then reshare that content on your own channels. Use customer reviews and ratings to create compelling product descriptions."
+      },
+      {
+        "id": 4,
+        "title": "2. Experiment with new formats",
+        "paragraph": "Try new content formats like interactive quizzes, live videos, or podcasts to see what resonates with your audience. What works for one brand may not work for yours. Experiment, reitterate. "
+      },
+      {
+        "id": 5,
+        "title": "3. Repurpose your content",
+        "paragraph": "Repurposing content is a great way to fill in the gaps in your content strategy. Repurpose your blog posts, videos, podcasts and other content into different formats to reach a wider audience."
+      },
+      {
+        "id": 6,
+        "title": "4. Collaborate with influencers",
+        "paragraph": "Partner with influencers in your industry to reach a wider audience and build trust with potential customers. Influencers typically have a highly engaged audience that trusts and values their opinions."
+      },
+      {
+        "id": 7,
+        "title": "5. Develop a content calendar",
+        "paragraph": "Plan your content in advance based on seasonal trends, sales, and promotions. Understand which topics and headlines get the most social shares, model your headlines after these, and use tools like BuzzSumo and HubSpot's random topic generator for ideas and Headline Studio for the best-performing headlines."
+      },
+      {
+        "id": 8,
+        "title": "6. Personalize your content",
+        "paragraph": "Use data and segmentation to create personalized content for different audience segments."
+      },
+      {
+        "id": 9,
+        "title": "7. Incorporate storytelling",
+        "paragraph": "Use storytelling techniques to make your content more engaging and memorable. The key is to create content that evokes emotion and has a strong message. \nTell compelling stories about your brand or products to build an emotional connection with your audience."
+      },
+      {
+        "id": 10,
+        "title": "8. Refine your CTA’s",
+        "paragraph": "Use effective Calls to Action buttons, such as a single CTA per page with contrasting colors from the background, personalization with action verbs, and benefit-rich phrases."
+      },
+      {
+        "id": 11,
+        "title": "9. Focus on your customers' needs",
+        "paragraph": "Create content that addresses your customers' pain points and solves their problems."
+      },
+      {
+        "id": 12,
+        "title": "10. Be consistent!",
+        "paragraph": "In content marketing, consistency is crucial. To keep your audience interested and develop a devoted following, establish a schedule and follow it."
+      },
+      {
+        "id": 13,
+        "title": "11. Always write with SEO in mind",
+        "paragraph": "Write in-depth articles for SEO purposes - add bulleted/numbered lists, tabular data, examples, and case studies."
+      },
+      {
+        "id": 14,
+        "title": "12. Track Key Metrics",
+        "paragraph": "This is the most critical point: you should always measure your traffic and metrics. Measuring engagement metrics such as page views, time on page, bounce rate, conversion rates, and sales is important. It’s also important to measure social media metrics, such as likes, shares, and comments to see what’s creating engagement and what is not. Also, review email marketing metrics, such as open and click-through rates. This will give you a rough ROI on your content marketing efforts. Measure your results and adjust your strategy as needed."
+      },
+      {
+        "id": 15,
+        "title": "13. Develop a strong brand voice",
+        "paragraph": "Define your brand voice and ensure consistency across all channels and content types."
+      },
+      {
+        "id": 16,
+        "title": "14. Optimize product descriptions",
+        "paragraph": "Write unique and detailed product descriptions highlighting your products' benefits and features. Don’t be afraid to talk to your customers in their language or style. This creates familiarity and builds trust."
+      },
+      {
+        "id": 17,
+        "title": "15. Use social proof",
+        "paragraph": "Share customer reviews, ratings, and testimonials to build trust and credibility."
+      },
+      {
+        "id": 18,
+        "title": "16. Focus on customer education",
+        "paragraph": "Create content that educates your customers on how to use your products, how to solve common problems, etc."
+      },
+      {
+        "id": 19,
+        "title": "17. Use retargeting ads",
+        "paragraph": "Use retargeting ads to show your content to people who have already shown interest in your products or services."
+      },
+      {
+        "id": 20,
+        "title": "18. Monitor and respond to feedback",
+        "paragraph": "Monitor feedback and respond to comments and questions from your audience to show that you value their opinions and improve your content over time."
+      },
+      {
+        "id": 21,
+        "title": "19. Leverage email marketing",
+        "paragraph": "Use email marketing to share your content and stay top-of-mind with your audience."
+      },
+      {
+        "id": 22,
+        "title": "20. Collaborate with other brands",
+        "paragraph": "Partner with other brands in your industry to create co-branded content that benefits both brands and increases your reach."
+      },
+      {
+        "id": 23,
+        "title": "The Bottom Line",
+        "paragraph": "Keep experimenting with new strategies and analyzing results to continually improve your content marketing efforts. \nAlways keep your target audience in mind and create content that is valuable to them. What you and your customer might like are two separate things. Think like a customer. Create personas—who is your typical customer? What are they into? \nBy following these tips and constantly iterating on your strategy, you can create a successful eCommerce content marketing plan that drives traffic, increases conversions, and builds your brand's reputation as a thought leader. \nRemember, it's not just about creating content; it's about creating valuable content that resonates with your audience and solves their problems."
+      }
+    ],
+    "em": "Photo by Headway on Unsplash"
   },
   {
     "id": 5,
@@ -41,8 +233,31 @@
     "alt": "handles-your-project-discovery",
     "date": "12-17-2022",
     "name": "How SUMO Heavy Handles Your Project Discovery",
-    "link": "/",
-    "author": "John Suder"
+    "link": "how-sumo-heavy-handles-your-project-discovery",
+    "author": "John Suder",
+    "details": [
+      {
+        "id": 1,
+        "title": "The term 'discovery' is too broad; we make it more specific; we call it a Weigh-In. ",
+        "paragraph": "‘Weigh-In’ is a more holistic description of what it is. It's a set of recommendations, documentation, and decision-making that builds out your Roadmap. During the Weigh-In, we build out how exactly we will make all of these moving pieces within the infrastructure of your needs, your RFP, your statement of work, how we will make those work together, and what you can expect at the end. \nWhen a potential client sends that initial email, we respect and understand that it's their job to get this for as little cost as possible. They are looking at the expense of discovery and the cost of building out the project or feature. It can be intimidating. It's sticker shock. The client wants to understand precisely why we're quoting and what they get for the money. We believe in transparency because we believe in the cost and the dollar sign attached to this process. "
+      },
+      {
+        "id": 2,
+        "title": "We're Not Your Typical Agency",
+        "paragraph": "Many agencies work on handing in an RFP or a statement of work, or at the very least, a high-level list or breakdown of the project they're looking for. Those projects can vary wildly. It might be a specific eCommerce site, a marketplace, a product itself, or an app. Agencies list all these things and make decisions internally based on resources, scope, and difficulty of what the potential client is asking for. They weigh what they have internally— the time, the budget allocated for the project, and the availability of teams, and they arrive at their proposal estimates and numbers. \nMost agencies work with an intricate hourly system, so they have designers, marketing experts, and project and product managers working in a system based on an hourly workweek. Those project bits and pieces equate to a number of hours and effort. They determine how long something will take and the resources they have to fit the work you've asked for. \nAt SUMO we've found that that's not conducive to how big of a team we are, how we think of our resources, and how we like to honor the process and product lifecycle. We ditched the concept of hourly rates and hourly work and posed the concept of the discovery 'Weigh-In' because it's an in-depth and intimate look at your team, its process, and its decision-making patterns. \nMany agencies look at that RFP and then assign a roadmap and timeline. They're expected to fulfill their obligation to get the product, the project, and the feature out on time and on budget within the resources they anticipated. \nWe work a little differently because we will re-scope the project. We will rework a roadmap, work with our commitment, and build a realistic roadmap based on our in-depth look at the technological solutions you're picking. \nIn the long term, we aim to stay with you, work with you, and grow with you for as long as possible. Our goal is to implement this for you, measure its growth and success parameters with you, and be a partner as you go through this journey and as you put the site, the product, or the features out and understand their value. \nMany agencies don't have that consulting voice or approach simply because they're not consulting agencies. They have their system. We prefer a more intimate look into what you're building, why you're making it, and how you're building it. The same people overseeing that at SUMO with you will also manage the site's implementation and overall success. We like to stay connected to what our clients want. It sets us apart because, with many other agencies, it's just another project—one of possibly many. When it's done, they'll send a new contract, and you'll either sign it or you won't. \nGenerally, an agency might not necessarily find that they will hand off their discovery content to a completely different team. You might have some familiar faces, like account managers because the agency wants to do a good job and make you feel good about your decision to join them. \nAt SUMO, we make it a little more intimate. We have a kickoff call, which is an hour-long, initial deep dive, where we understand the tone within your organization, how you're feeling about what you have now, and how you're feeling about what you want to build. It's not just working off this RFP; it's not just working with resources that have an hourly association with them; it understands what you're building."
+      },
+      {
+        "id": 3,
+        "title": "What does everyone need to get their job done? ",
+        "paragraph": "If you're handing in an RFP to a marketing agency, they're not naturally concerned with your organizational decision-making because that's different from how they work. That's different from the type of agency they are. We lean into that consulting arm because it's the most sustainable way to build. Through our experience, we have worked on many different types of products within many organizations, so we understand the importance of planning. That planning can be holistic; you don't just have to plan out a product, you don't have to just build user flows. For one specific feature, you can create a user flow and a plan for how your salespeople sell, how your marketing team measures analytics in Google, and what that means for everyone on the team. That's how we look at a Weigh-In and a discovery. Whereas for many agencies, that's not the game they're in. \nSUMO Heavy is an eCommerce consulting agency. Most agencies are equipped with divisions and branches; thus, they are an agency of people. We have a development branch, project and product management, and engineering and development management. If you came to SUMO looking for something like a branding experience—a creative and marketing experience—we wouldn't be a good fit for you. Go to a branding agency specializing in your look, feel, and your company's soul and vibe. They won't be the ones with the development arm to implement the technological solutions. That's not to say you can't have all these agencies work together. But you should understand how they will talk to each other and what that means. Do you have a point of contact for facilitating these conversations? Maybe one of your agencies can step in and be that overall project manager for you; research the type of agency they are working with, ask around with some peers in your industry, and see if they can provide references. \nWhat makes us unique in our approach to discovery, Weigh-In and client work, generally, is that we don't just agree to things. We don't just throw numbers out there based on RFPs. We say true blue to our commitment to this Weigh-In and discovery process; that's how firmly we believe in it. \nClients sometimes come to us but are interested in something other than the time and money it takes to do a Weigh-In with us. We then know it's not a good fit. We are fully committed to understanding how you work and how it will scale and grow over time. "
+      },
+      {
+        "id": 4,
+        "title": "Our goal is a long-term relationship and partnership. ",
+        "paragraph": "In many agencies, RFPs come and go and have a rich roster of clients. We're careful about the clients we onboard; they have to be a good fit. That's what makes us unique. We won't just promise you something we're not sure we could achieve. We don't over-promise; we stay transparent. We give a lot of our time and have conversations before people technically pay us because we want people to feel good about their money. \nOnce the Weigh-In is over, or when you start the Weigh-In, we give you a Weigh-In Roadmap. We give you what to expect as you go forward. Some of our Weigh-Ins last as long as ten weeks. When that process is over, and you have this Roadmap for your product site, the Weigh-In the Discovery process has ended. \nHere at SUMO, we present that Roadmap along with our documentation. We record meetings, and many one-off meetings with staff can last an hour. Those looking to fundraise or gain money from what they're building may take those recordings and build their presentations upon those. You get to keep those recordings, the Roadmap, and all the documentation we've prepared. The Roadmap then becomes all of these items we will pick up and build for you. You can also take that and take it with your internal team, build it out yourself if you have another dev shop in mind. Once the Weigh-In and Discovery have ended, you can use that Roadmap perpetually; it's still a valid plan to get you where you need to go. \nFrom conversations to documentation, user flows, designs, the technical infrastructure, and comparative analysis, all of these things are going to tell us, and tell you and your team very clearly, how difficult the thing you're asking for is going to cost you, and how long it's going to take for us at SUMO. \nPresenting a number before we've even made a discovery is a foolhardy decision, and we try to avoid it. We stress to our prospective clients that they'll get a much more realistic picture as they go through the discovery/Weigh-In with us. \nWhen the Weigh-In is over, you come to work the next day; you're ready to begin. "
+      }
+    ],
+    "em": "Photo by Billy Huynh on Unsplash"
   },
   {
     "id": 6,
@@ -50,8 +265,36 @@
     "alt": "amazon-tests-return-fees",
     "date": "12-05-2022",
     "name": "Amazon Tests Return Fees, The Era of Free Returns May Be Ending",
-    "link": "/",
-    "author": "John Suder"
+    "link": "amazon-tests-return-fees-the-era-of-free-returns-may-be-ending",
+    "author": "John Suder",
+    "details": [
+      {
+        "id": 1,
+        "title": null,
+        "paragraph": "Amazon is testing the waters of return fees, possibly upending the era of free returns for customers accustomed to the perk. \nThe move comes as Amazon and other eCommerce giants try to balance the cost of handling returns with shoppers' expectations. Analysts predict that others may follow Amazon's lead and begin charging for returns. \nReturns accounted for $816 billion in lost sales, or 17% of total sales in 2022, up from 11% in 2020, according to the National Retail Federation. \nEven though it's not commonplace (yet), there may be a cost if you decide to drop off an Amazon purchase at a UPS location. \nAmazon is now evaluating the effects of return fees as part of its efforts to balance managing returns and customer expectations. To reduce the price of returns, more well-known e-commerce companies are thinking of taking similar actions. For now, dropping off Amazon purchases at UPS shops carries a $1 cost. The era of free returns may be coming to an end. Issues raised by Amazon's actions include the necessity of such fees and their potential impact on the user experience."
+      },
+      {
+        "id": 2,
+        "title": "The Pros and Cons of Charging Return Fees",
+        "paragraph": "While customers may not be thrilled at the prospect of paying return fees, charging for returns could benefit retailers and shoppers in some ways. Here are a few potential pros and cons:"
+      },
+      {
+        "id": 3,
+        "title": "Pros",
+        "paragraph": " \n• Charging for returns could help retailers recoup some of the costs associated with handling and processing returns \n• Retailers may be able to offer lower prices on products if they aren't absorbing the cost of free returns \n• Charging for returns may encourage customers to be more thoughtful about their purchases, reducing the overall rate of returns"
+      },
+      {
+        "id": 4,
+        "title": "Cons",
+        "paragraph": " \n• Customers may be deterred from making purchases altogether if they know they'll have to pay for returns \n• Charging for returns could damage customer trust and loyalty"
+      },
+      {
+        "id": 5,
+        "title": null,
+        "paragraph": "The potential move towards charging for returns marks a significant shift for the retail industry. It's unclear whether customers will be prepared to accept the change. If retailers want to implement this change successfully, they must communicate why these fees are necessary and how they will ultimately benefit consumers. \nUltimately, it remains to be seen whether or not charging for returns will become a widespread practice. Some retailers may continue offering free returns to differentiate their businesses from the competition. Regardless, the trend towards charging for returns is worth keeping an eye on, as it could significantly impact the retail industry as a whole. \nIf the trend catches on, it could significantly shift the eCommerce landscape. However, the decision may also cause some backlash from consumers, who have come to expect free and easy returns as part of the online shopping experience."
+      }
+    ],
+    "em": "Photo by Bryan Angelo on Unsplash"
   },
   {
     "id": 7,
@@ -59,8 +302,31 @@
     "alt": "temu",
     "date": "11-26-2022",
     "name": "Temu is the Now the Most Downloaded Shopping App",
-    "link": "/",
-    "author": "John Suder"
+    "link": "temu-is-the-now-the-most-downloaded-shopping-app",
+    "author": "John Suder",
+    "details": [
+      {
+        "id": 1,
+        "title": "What is Temu?",
+        "paragraph": "If you watched the Super Bowl this year, you might have seen a commercial for a shopping app called Temu (pronounced 'Tee-moo'). Their tagline is 'shop like a billionaire,' and displays 'shockingly low' prices, like dresses for under $10. \nAccording to the company's website, it links customers with 'millions of sellers, manufacturers, brands, and logistic partners around the world' to 'empower' them to lead 'best lives,' and it is dedicated to 'providing the most affordable quality products.' \nLaunched in 2022, Temu is owned by PDD Holdings, formerly known as Pinduoduo, the Chinese eCom giant. Its offices are in Boston, Mass. \nPinduoduo has had success in China by supplying low-income consumers and farmers with goods at steep discounts directly from manufacturers. Its market capitalization is at $102 billion, and its stock price has improved throughout a challenging year for rivals like Alibaba. \nInflation-weary consumers, attracted by the ridiculously low prices, made the app the most downloaded (bypassing even Amazon and Walmart!). According to CNN, Temu's app has been downloaded 24 million times since its debut and has more than 11 million monthly users. \nThe company said it also recently opened in Canada last week."
+      },
+      {
+        "id": 2,
+        "title": "How Can Their Goods Be So Cheap?",
+        "paragraph": "Temu said it offers its 'ultra inexpensive prices' by utilizing its parent firm's vast sourcing and distribution network. \nTemu provides significant savings on a wide range of items, the majority of which are sent directly from Chinese companies. Temu's popularity may be attributed to its marketing tactic of offering free things in exchange for users' social media promotion and referrals of friends and family. \nThe company said it chose Boston as its U.S. headquarters because of the region's work talent, its proximity and accessibility to Logan Airport, and its ease of access. \nYou'll find everything from home goods to clothing to electronics on its website, with discounts that sometimes reaching double digits. \nAdditionally, the company offers free shipping on 'almost all orders' and free express shipping on orders over $129, as well as free returns within 90 days. \nAccording to Temu, it has a 'zero-tolerance policy' toward counterfeiters and imposes 'heavy penalties' on 'infringers.' \nAccording to Time, Temu has been operating for less than six months and ships products directly from warehouses in China. It also offers a reward system for users to have others sign up and place orders, Time added."
+      },
+      {
+        "id": 3,
+        "title": "Cheap Goods Come at a Cost",
+        "paragraph": "Temu is beginning to gain a bad reputation for undelivered deliveries, enigmatic charges, wrong orders, and unhelpful customer assistance. Temu now has a BBB customer rating of fewer than 1.5 stars and has already received more than 30 complaints about it. \n'They're making delivery promises, and people aren't getting their stuff when they're supposed to be,' Melanie McGovern, the director of public relations and social media for the BBB, tells TIME."
+      },
+      {
+        "id": 4,
+        "title": "How This Can Affect eCommerce and the U.S. Economy",
+        "paragraph": "As Temu continues to gain traction in the American market, it could indicate a looming price war among powerhouse eCommerce players. With customers now able to purchase directly from China at discounted rates, domestic manufacturing runs the risk of being undercut as manufacturers react by cutting their profits and competing for prices that are lower than ever before."
+      }
+    ],
+    "em": null
   },
   {
     "id": 8,
@@ -68,8 +334,26 @@
     "alt": "robots",
     "date": "11-07-2022",
     "name": "Do Robots Actually Enhance the Shopping Experience?",
-    "link": "/",
-    "author": "Brittany Blackman"
+    "link": "do-robots-actually-enhance-the-shopping-experience",
+    "author": "Brittany Blackman",
+    "details": [
+      {
+        "id": 1,
+        "title": null,
+        "paragraph": "Retailers have been scrambling to bolster their tech to keep up with constant innovation. Retailers strive to offer  consumers with a shopping experience more streamlined and cohesive than their competitors. However, a recent Harris Polls and Retail Brew study hints that robotic shopping assistants might not be the answer retailers anticipated. "
+      },
+      {
+        "id": 2,
+        "title": "The Buzz",
+        "paragraph": "Before the study, Retail Brew noted that robotic advancements like chatbots were the latest buzz in tech-enhanced retail. Chatbots, like ChatGPT, are software systems that use a branch of AI called Natural Language Processing to understand and respond to human language. For example, last year, Walmart launched 'text to shop,' an in-house chatbot that allows consumers to search for items and checkout via text message. \nMeanwhile, the retail giant is also automating supplier procurement negotiations with the help of Pactum AI, whose chatbot negotiates with human suppliers on behalf of companies. \nWhile all that sounds futuristic and accommodating, is that what consumers want? Retail Brew's study proves that while retailers have no problem picking up the new tech, consumers are not as thrilled. \nAccording to the Harris Poll/Retail Brew survey of 2,080 US adults, when thinking about their shopping experiences, nearly half of Americans (45%) report engaging with a chat box or other AI technology when seeking out customer service. However, less than half of respondents (48%) agree that robots could improve in-person shopping. \nHowever, most shoppers believe robots could improve food (57%) and non-food (62%) delivery services. \nA similar 2021 Harris Poll/Retail Brew survey found that merely 30% of respondents said they want more technology integrated into their shopping experience, while a majority (57%) wanted less or for it to stay the same. \nFlash forward to the present, in 2023, Americans believe robots are most useful in supply chain and fulfillment processes (31%), followed by delivery services (21%), customer service (11%), and purchasing products (10%). However, roughly a fifth (21%) believe robots would be useless anywhere in the shopping experience. \nFurthermore, roughly a fifth of respondents (19%) report that they would be more likely to purchase from an establishment that uses robots, as opposed to 43% who report no effect on their likelihood of buying from such businesses, and 37% who would be less likely. \nA slight majority of Americans surveyed (55%) report being worried about automation affecting jobs in retail, customer service (54%), delivery (52%), and supply chain/fulfillment (51%). "
+      },
+      {
+        "id": 3,
+        "title": "Mounting Concerns",
+        "paragraph": "One of the most interesting figures from the survey is that 33% of employed respondents are worried about automation affecting their own jobs. According to the International Federation of Robotics, global installations of industrial robots grew 31% in 2021 year-on-year, while sales of service robots rose 37%, with the retail sector a significant driver of both. \nMoreover, when taking a peak at the fashion industry, McKinsey expects fashion companies to double investment in technology from 1.6% to 1.8% of their revenue in 2021 to between 3.0% and 3.5% by 2030. \nThe report  says those fashion brands which fully integrate digital processes could cut by half the time it takes to get a product to market. That, in turn, could lead to an 8% rise in full-price goods sales and a 20% drop in manufacturing costs. \nIt's no secret that retailers' widespread adoption of robotic assistants brings ethical questions to the forefront of consumers' minds. If innovation continues at this pace, the fear of losing physical retail jobs is not unfounded. Jobless retail workers and mounting consumer disinterest in robotic assistants in retail could halt the fast-paced adoption of robotic technology worldwide. However, money talks, and if corporations can cut costs and heighten efficiency, historically speaking, they will do it."
+      }
+    ],
+    "em": "Photo by Arturo Rey on Unsplash"
   },
   {
     "id": 9,
@@ -77,7 +361,15 @@
     "alt": "walmart",
     "date": "10-15-2022",
     "name": "Walmart Lets Customers Shop Via Text with 'Text to Shop'",
-    "link": "/",
-    "author": "John Suder"
+    "link": "walmart-lets-customers-shop-via-text-with-text-to-shop",
+    "author": "John Suder",
+    "details": [
+      {
+        "id": 1,
+        "title": null,
+        "paragraph": "Walmart continues to innovate the shopping experience with its new 'Text to Shop.' This feature allows customers to simply add items to their cart using text messages. If the feature sounds familiar, it’s because Walmart launched it as a beta test in October 2021. \nThe free feature must be linked to the user's Walmart account so that their usual selections can be reordered. You can add the products you need to your cart by simply texting them. Choose from the full range of merchandise offered by Walmart, including offerings from your neighborhood store and Walmart.com. To quickly evaluate and add your commonly ordered goods to your cart, text “reorder.” \nShoppers can swap out items, review their cart, check and schedule pickups and deliveries. \nThese options are helpful for the type of shopper who knows precisely what they want or picks up the same selection of products on each visit, saving time roaming aisles and waiting at checkout. \nSince the COVID pandemic, shoppers have grown used to the idea of BOPIS integrations and local delivery. Walmart makes the customer journey frictionless by meeting the customers where they are, in a mode they prefer. \nWalmart’s new Text to Shop experience is free for customers on iOS and Android devices."
+      }
+    ],
+    "em": "Photo by Marques Thomas on Unsplash"
   }
 ]

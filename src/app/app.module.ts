@@ -28,6 +28,7 @@ import { DetailsComponent } from './our-work/details/details.component';
 import { CapabilitiesComponent } from './capabilities/capabilities.component';
 import { CapabilitiesDetailComponent } from './capabilities/capabilities-detail/capabilities-detail.component';
 import { InsightsComponent } from './insights/insights.component';
+import { InsightsDetailComponent } from './insights/insights-detail/insights-detail.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { InsightsComponent } from './insights/insights.component';
     CapabilitiesComponent,
     CapabilitiesDetailComponent,
     InsightsComponent,
+    InsightsDetailComponent,
   ],
   imports: [
     BrowserModule,
