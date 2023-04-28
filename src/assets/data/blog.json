@@ -1,26 +1,83 @@
 [
   {
     "id": 1,
-    "image": "../../assets/home/shopify.jpeg",
+    "image": "../../assets/insights/shopify.jpeg",
     "alt": "Shopify",
-    "date": "03-01-2023",
+    "date": "03-26-2023",
     "name": "The Real-World Journey of Moving to Shopify Online Store 2.0",
-    "link": "/"
+    "link": "/",
+    "author": "John Suder"
   },
   {
     "id": 2,
-    "image": "../../assets/home/grocery.jpeg",
+    "image": "../../assets/insights/grocery.jpeg",
     "alt": "Grocery",
-    "date": "03-01-2023",
+    "date": "03-21-2023",
     "name": "Grocery eCommerce Habits are Shifting for Consumers",
-    "link": "/"
+    "link": "/",
+    "author": "Brittany Blackman"
   },
   {
     "id": 3,
-    "image": "../../assets/home/data-warehousing.jpeg",
+    "image": "../../assets/insights/data-warehousing.jpeg",
     "alt": "Data Warehousing",
-    "date": "03-01-2023",
+    "date": "03-18-2023",
     "name": "How Data Warehouses Can Save Your Company Money",
-    "link": "/"
+    "link": "/",
+    "author": "John Suder"
+  },
+  {
+    "id": 4,
+    "image": "../../assets/insights/drive-more-traffic.jpg",
+    "alt": "drive-more-traffic",
+    "date": "01-14-2023",
+    "name": "Drive More Traffic, Convert More Customers: 20 Content Marketing Tips",
+    "link": "/",
+    "author": "John Suder"
+  },
+  {
+    "id": 5,
+    "image": "../../assets/insights/handles-your-project-discovery.jpg",
+    "alt": "handles-your-project-discovery",
+    "date": "12-17-2022",
+    "name": "How SUMO Heavy Handles Your Project Discovery",
+    "link": "/",
+    "author": "John Suder"
+  },
+  {
+    "id": 6,
+    "image": "../../assets/insights/amazon-tests-return-fees.jpg",
+    "alt": "amazon-tests-return-fees",
+    "date": "12-05-2022",
+    "name": "Amazon Tests Return Fees, The Era of Free Returns May Be Ending",
+    "link": "/",
+    "author": "John Suder"
+  },
+  {
+    "id": 7,
+    "image": "../../assets/insights/temu.jpg",
+    "alt": "temu",
+    "date": "11-26-2022",
+    "name": "Temu is the Now the Most Downloaded Shopping App",
+    "link": "/",
+    "author": "John Suder"
+  },
+  {
+    "id": 8,
+    "image": "../../assets/insights/robots.jpg",
+    "alt": "robots",
+    "date": "11-07-2022",
+    "name": "Do Robots Actually Enhance the Shopping Experience?",
+    "link": "/",
+    "author": "Brittany Blackman"
+  },
+  {
+    "id": 9,
+    "image": "../../assets/insights/walmart.jpg",
+    "alt": "walmart",
+    "date": "10-15-2022",
+    "name": "Walmart Lets Customers Shop Via Text with 'Text to Shop'",
+    "link": "/",
+    "author": "John Suder"
   }
 ]
