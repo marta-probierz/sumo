@@ -7,6 +7,7 @@
     aria-controls="navbarSupportedContent"
     aria-expanded="false"
     aria-label="Toggle navigation"
+    (click)="toggleCollapsed()"
   >
     <span class="navbar-toggler-icon"></span>
     <a routerLink="/">
@@ -17,9 +18,13 @@
   <div
     class="collapse navbar-collapse justify-content-between"
     id="navbarSupportedContent"
+    [ngClass]="{ collapse: collapsed, 'navbar-collapse': true }"
   >
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item nav-main" style="margin-left: 30px">
+      <li
+        class="nav-item nav-main"
+        [ngStyle]="{ 'margin-left': collapsed ? '30px' : '0px' }"
+      >
         <a class="nav-link text-uppercase" routerLink="/our-work">Our work</a>
       </li>
       <li class="nav-item nav-main">
