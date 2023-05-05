@@ -10,9 +10,6 @@
     (click)="toggleCollapsed()"
   >
     <span class="navbar-toggler-icon"></span>
-    <a routerLink="/">
-      <img src="../../assets/sumo_icon.svg" height="35" />
-    </a>
   </button>
 
   <div
@@ -25,21 +22,39 @@
         class="nav-item nav-main"
         [ngStyle]="{ 'margin-left': collapsed ? '30px' : '0px' }"
       >
-        <a class="nav-link text-uppercase" routerLink="/our-work">Our work</a>
+        <a
+          class="nav-link text-uppercase"
+          routerLink="/our-work"
+          (click)="collapsed = true"
+          >Our work</a
+        >
       </li>
       <li class="nav-item nav-main">
-        <a class="nav-link text-uppercase" routerLink="/capabilities"
+        <a
+          class="nav-link text-uppercase"
+          routerLink="/capabilities"
+          (click)="collapsed = true"
           >Capabilities</a
         >
       </li>
       <li class="nav-item nav-main">
-        <a class="nav-link text-uppercase" routerLink="/insights">Insights</a>
+        <a
+          class="nav-link text-uppercase"
+          routerLink="/insights"
+          (click)="collapsed = true"
+          >Insights</a
+        >
       </li>
       <li class="nav-item nav-main">
-        <a class="nav-link text-uppercase" routerLink="/contact">Contact</a>
+        <a
+          class="nav-link text-uppercase"
+          routerLink="/contact"
+          (click)="collapsed = true"
+          >Contact</a
+        >
       </li>
     </ul>
-    <a routerLink="/">
+    <a routerLink="/" (click)="collapsed = true">
       <img src="../../assets/sumo_icon.svg" height="50" />
     </a>
     <ul class="navbar-nav mr-auto">
